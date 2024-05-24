@@ -332,7 +332,7 @@ body.light-theme {
 }
 
 .home__img {
-  width: 160px;
+  width: 300px;
 }
 
 .home__handle {
@@ -441,7 +441,7 @@ body.light-theme {
 }
 
 .about__img {
-  width: 220px;
+  width: 400px;
   border-radius: 1.5rem;
   justify-self: center;
 }
@@ -940,7 +940,7 @@ body.light-theme {
   }
 
   .home__img {
-    width: 130px;
+    width: 200px;
   }
 
   .about__info {
@@ -1119,7 +1119,7 @@ body.light-theme {
   }
 
   .home__img {
-    width: 220px;
+    width: 300px;
   }
   .home__social-link {
     padding: 0.4rem;
@@ -1141,7 +1141,7 @@ body.light-theme {
   }
 
   .about__img {
-    width: 350px;
+    width: 450px;
   }
 
   .about__data {
