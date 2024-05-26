@@ -254,7 +254,7 @@ body.light-theme {
   position: fixed;
   bottom: 1rem;
   background-color: hsla(var(--second-hue), 32%, 16%, 0.8);
-  width: 70%;
+  width: 50%;
   border-radius: 4rem;
   padding: 1rem 2.25rem;
   backdrop-filter: blur(10px);
