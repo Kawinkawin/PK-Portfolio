@@ -2,6 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Michroma&display=swap");
 
+
 /*=============== VARIABLES CSS ===============*/
 :root {
   --header-height: 3.5rem;
@@ -244,6 +245,8 @@ body.light-theme {
   color: var(--first-color);
   font-weight: var(--font-medium);
   transition: 0.4s;
+  font-size: 1.65rem; /* Adjust this value to your desired size */
+  font-family: "Michroma", sans-serif;
 }
 
 .nav__logo:hover {
