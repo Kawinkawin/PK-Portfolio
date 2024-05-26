@@ -330,7 +330,7 @@ body.light-theme {
 }
 
 .home__img {
-  width: 160px;
+  width: 250px;
 }
 
 .home__handle {
@@ -953,7 +953,7 @@ body.light-theme {
   }
 
   .home__img {
-    width: 200px;
+    width: 300px;
   }
 
   .about__info {
@@ -1132,7 +1132,7 @@ body.light-theme {
   }
 
   .home__img {
-    width: 220px;
+    width: 300px;
   }
   .home__social-link {
     padding: 0.4rem;
