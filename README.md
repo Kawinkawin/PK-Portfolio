@@ -1,13 +1,12 @@
-<<<<<<< HEAD
 # 🧑‍💻 KAWIN — Portfolio
 
 Welcome to the official GitHub repository for my personal **developer portfolio** — a fast, responsive, and terminal-themed website designed to represent who I am as a full-stack developer and technologist.
 
 This project reflects my personality, design preferences, and coding skills — all in a single, compact web experience.
 
-🔗 **Live Site**: [.vercel.app]()  
+🔗 **Live Site**: [Host](https://kawinkawin.github.io/PK-Portfolio/#home)  
 📄 **Resume**: [View Resume](https://drive.google.com/file/d/1KO7HutVhAmtQRTJVL02phgwwNfBS5nxG/view?usp=drive_link)  
-📬 **Contact**: [LinkedIn](www.linkedin.com/in/kawin-prahakaran) | siddheshdumre@gmail.com
+📬 **Contact**: [LinkedIn](www.linkedin.com/in/kawin-prahakaran) | kawinprabha08@gmail.com
 
 ---
 
@@ -67,4 +66,4 @@ cd portfolio
 
 Welcome to my project! You can check out my portfolio [here](https://kawinkawin.github.io/PK-Portfolio/).
 
->>>>>>> dfc0237eeffbf5905a2d5a84ca242c3a95bc553b
+
