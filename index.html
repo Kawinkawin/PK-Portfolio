@@ -1,947 +1,430 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="en" >
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>PK Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="script.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Code&display=swap" rel="stylesheet" />
+  <link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+/>
+<!-- Add GitHub Calendar CSS in <head> -->
+<link rel="stylesheet" href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css" />
 
-    <!--=============== FAVICON ===============-->
-    
-    <link rel="shortcut icon" href="assets\favicons\PK----logo-removebg.png">
-    
-    <!--=============== BOXICONS ===============-->
-    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
-
-    <!--=============== SWIPER CSS ===============-->
-    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
-
-    <!--=============== CSS ===============-->
-    <link rel="stylesheet" href="assets/css/styles.css">
-
-    <title> Kawin's Portfolio </title>
 </head>
-
 <body>
-    <!--=============== HEADER ===============-->
-    <header class="header" id="header">
-        <nav class="nav container">
-            <a href="#" class="nav__logo">PK.</a>
-
-            <div class="nav__menu">
-                <ul class="nav__list">
-                    <li class="nav__item ">
-                        <a href="#home" class="nav__link">
-                            <i class='bx bx-home'></i>
-                        </a>
-                    </li>
-
-                    <li class="nav__item ">
-                        <a href="#about" class="nav__link">
-                            <i class='bx bx-user'></i>
-                        </a>
-                    </li>
-
-                    <li class="nav__item">
-                        <a href="#skills" class="nav__link">
-                            <i class='bx bx-book'></i>
-                        </a>
-                    </li>
-
-                    <li class="nav__item ">
-                        <a href="#Achivemets" class="nav__link">
-                            <i class='bx bx-code'></i>
-                        </a>
-                    </li>
-                    
-                    <li class="nav__item ">
-                        <a href="#Certificate" class="nav__link">
-                            <i class='bx bx-award'></i>
-                        </a>
-                    </li>
-
-                    <li class="nav__item">
-                        <a href="#work" class="nav__link">
-                            <i class='bx bx-briefcase-alt-2'></i>
-                        </a>
-                    </li>
-
-                    <li class="nav__item">
-                        <a href="#contact" class="nav__link">
-                            <i class='bx bx-message-square-dots'></i>
-                        </a>
-                    </li>
-                </ul>
-            </div>
-
-            <!--=============== theme change button ===============-->
-            <i class='bx bx-moon change-theme change-theme-button' id="theme-button"></i>
-
-        </nav>
-    </header>
-
-    <!--=============== MAIN ===============-->
-    <main class="main">
-        <!--=============== HOME ===============-->
-        <section class="home section" id="home">
-            <div class="home__container container grid">
-                <div class="home__data">
-                    <span class="home__greeting">Hello, I'm</span>
-                    <h1 class="home__name">Kawin P</h1>
-                    <h3 class="home__education">AI Student</h3>
-
-                    <div class="home__button">
-                        <a download="" href="assets\pdf\Kawin.P Resume.pdf" class="button button--ghost">
-                            Download CV
-                        </a>
-
-                        <a href="#about" class="button">About</a>
-                    </div>
-                </div>
-
-                <div class="home__handle">
-                    <img src="assets\img\Kawin-Profile.png" alt="" class="home__img">
-                </div>
-
-                <div class="home__social">
-                    <a href="#" target="_blank" class="home__social-link">
-                        <i class='bx bxl-linkedin'></i>
-                    </a>
-                    <a href="https://github.com/Kawinkawin" target="_blank" class="home__social-link">
-                        <i class='bx bxl-github'></i>
-                    </a>
-                    <a href="#" target="_blank" class="home__social-link">
-                        <i class='bx bxl-dribbble'></i>
-                    </a>
-                </div>
-
-                <a href="#about" class="home__scroll">
-                    <i class='bx bx-mouse home__scroll-icon'></i>
-                    <span class="home__scroll-name">Scroll Down</span>
-                </a>
-            </div>
-        </section>
-
-        <!--=============== ABOUT ===============-->
-        <section class="about section" id="about">
-            <span class="section__subtitle">My Intro</span>
-            <h2 class="section__title">About Me</h2>
-
-            <div class="about__container container grid">
-                <img src="assets\img\about-removebg.png" alt="" class="about__img">
-
-                <div class="about__data">
-                    <div class="about__info">
-                        <div class="about__box">
-                            <i class='bx bx-award about__icon bx-tada-hover'></i>
-                            <h3 class="about__title">Cirtificates</h3>
-                            <span class="about__subtitle">10+ Cirtifications</span>
-                        </div>
-                        <div class="about__box">
-                            <i class='bx bx-laptop about__icon bx-tada-hover'></i>
-                            <h3 class="about__title">Projects</h3>
-                            <span class="about__subtitle">48+ Projects</span>
-                        </div>
-                        <div class="about__box">
-                            <i class='bx bx-briefcase about__icon bx-tada-hover'></i>
-                            <h3 class="about__title">Experience</h3>
-                            <span class="about__subtitle">Fresher</span>
-                        </div>
-                    </div>
-
-                    <p class="about__description">
-                        Hello! I'm currently pursuing an undergraduate degree in Artificial Intelligence and Data Science (AI&DS) at Sri Eshwar College of Engineering, Coimbatore, set to graduate in 2026. My interests include AI, data analytics, machine learning, deep learning, cloud computing, and networking. With a solid foundation in programming languages like Python and tools such as TensorFlow and SQL, I've developed and deployed machine learning models and analyzed large datasets. I aspire to leverage these technologies to solve real-world problems and drive innovation in sectors like healthcare, finance, and cybersecurity. Outside academics, I enjoy exploring the latest tech trends, participating in hackathons, and collaborating on projects.
-                    </p>
-
-                    <a href="#contact" class="button about__button-contact">Contact Me</a>
-                </div>
-            </div>
-        </section>
-
-        <!--=============== SKILLS ===============-->
-        <section class="skills section" id="skills">
-            <span class="section__subtitle">My Skills</span>
-            <h2 class="section__title">My Experience</h2>
-
-            <div class="skills__container container grid">
-                <div class="skills__content">
-                    <h3 class="skills__title">Programming Languages </h3>
-
-                    <div class="skills__box">
-                        <div class="skills__group">
-                            <div class="skills__data">
-                                <i class='bx bx-code-block'></i>
-
-                                <div>
-                                    <h3 class="skills__name">Python</h3>
-                                    <span class="skills__level">Intermediate</span>
-                                </div>
-                            </div>
-
-                            <div class="skills__data">
-                                <i class='bx bx-code-block'></i>
-
-                                <div>
-                                    <h3 class="skills__name">C,C++</h3>
-                                    <span class="skills__level">Intermediate</span>
-                                </div>
-                            </div>
-
-                            <div class="skills__data">
-                                <i class='bx bx-code-block'></i>
-
-                                <div>
-                                    <h3 class="skills__name">Javascript</h3>
-                                    <span class="skills__level">Intermediate</span>
-                                </div>
-                            </div>
-
-                        </div>
-                        <div class="skills__group">
-                            <div class="skills__data">
-                                <i class='bx bx-code-block'></i>
-
-                                <div>
-                                    <h3 class="skills__name">HTML,CSS</h3>
-                                    <span class="skills__level">Intermediate</span>
-                                </div>
-                            </div>
-
-                            <div class="skills__data">
-                                <i class='bx bx-code-block'></i>
-
-                                <div>
-                                    <h3 class="skills__name">Java</h3>
-                                    <span class="skills__level">Advanced</span>
-                                </div>
-                            </div>
-
-                            <div class="skills__data">
-                                <i class='bx bx-code-block'></i>
-
-                                <div>
-                                    <h3 class="skills__name">React</h3>
-                                    <span class="skills__level">Basic</span>
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
-
-                <div class="skills__content">
-                    <h3 class="skills__title">Domains</h3>
-
-                    <div class="skills__box">
-                        <div class="skills__group">
-                            <div class="skills__data">
-                                <i class='bx bxs-badge-check'></i>
-
-                                <div>
-                                    <h3 class="skills__name">Data Science</h3>
-                                    <span class="skills__level">Intermediate</span>
-                                </div>
-                            </div>
-
-                            <div class="skills__data">
-                                <i class='bx bxs-badge-check'></i>
-
-                                <div>
-                                    <h3 class="skills__name">Machine Learning</h3>
-                                    <span class="skills__level">Intermediate</span>
-                                </div>
-                            </div>
-
-                            <div class="skills__data">
-                                <i class='bx bxs-badge-check'></i>
-
-                                <div>
-                                    <h3 class="skills__name">D Jango</h3>
-                                    <span class="skills__level">Intermediate</span>
-                                </div>
-                            </div>
-
-                        </div>
-                        <div class="skills__group">
-                            <div class="skills__data">
-                                <i class='bx bxs-badge-check'></i>
-
-                                <div>
-                                    <h3 class="skills__name">Internet of Things (IoT)</h3>
-                                    <span class="skills__level">Intermediate</span>
-                                </div>
-                            </div>
-
-                            <div class="skills__data">
-                                <i class='bx bxs-badge-check'></i>
-
-                                <div>
-                                    <h3 class="skills__name">Finance</h3>
-                                    <span class="skills__level">Advanced</span>
-                                </div>
-                            </div>
-
-                            <div class="skills__data">
-                                <i class='bx bxs-badge-check'></i>
-
-                                <div>
-                                    <h3 class="skills__name">Mongo DB</h3>
-                                    <span class="skills__level">Advanced</span>
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
-        </section>
-
-        <!--=============== Achivemets ===============-->
-        <section class="services section" id="Achivemets">
-            <span class="section__subtitle">Global Platforms</span>
-            <h2 class="section__title">My Achivemets</h2>
-
-            <div class="services__container container grid">
-                <div class="services__card">
-                    <div class="serv">
-                        <img src="assets\img\platforms\leetcode.png" alt="Certificate 5" />
-                        <br><br>
-                        <span class="services__button">
-                            See More <i class='bx bx-right-arrow services__icon'></i>
-                        </span>
-                    </div>
-
-
-                    <div class="services__modal">
-                        <div class="services__modal-content">
-                            <i class='bx bx-x services__modal-close'></i>
-
-                            <h3 class="services__modal-title">Leetcode</h3>
-
-                            <p class="services__modal-description">
-                                <img src="assets\img\platforms\Leetcode-profile.PNG" alt="Certificate 5" />
-                            </p>
-
-                            <ul class="services__modal-list">
-                                <li class="services__modal-item">
-                                    <i class='bx bx-check-circle'></i>
-                                    <p class="services__modal-info">
-                                        Userame : KawinP
-                                    </p>
-                                </li>
-
-                                <li class="services__modal-item">
-                                    <i class='bx bx-check-circle'></i>
-                                    <p class="services__modal-info">
-                                        Solved 110+ problems. 
-                                    </p>
-                                </li>
-
-                                <li class="services__modal-item">
-                                    <i class='bx bx-check-circle'></i>
-                                    <p class="services__modal-info">
-                                        Attended 7+ contest
-                                    </p>
-                                </li>
-
-                                <li class="services__modal-item">
-                                    <i class='bx bx-check-circle'></i>
-                                    <p class="services__modal-info">
-                                        Contest rating : 1400+
-                                    </p>
-                                </li>
-
-                                <li class="services__modal-item">
-                                    <i class='bx bx-check-circle'></i>
-                                    <p class="services__modal-info">
-                                        Reputation : 3+
-                                    </p>
-                                </li>
-                            </ul>
-                            <a href="https://leetcode.com/u/KawinP/" class="services__modal-button" target="_blank">
-                                Visit Profile
-                            </a>
-                            
-                        </div>
-                    </div>
-                </div>
-                <div class="services__card">
-                    <img src="assets\img\platforms\Codechef.png" alt="Certificate 5" />
-                        <br><br>
-                    <span class="services__button">
-                        See More <i class='bx bx-right-arrow services__icon'></i>
-                    </span>
-
-                    <div class="services__modal">
-                        <div class="services__modal-content">
-                            <i class='bx bx-x services__modal-close'></i>
-
-                            <h3 class="services__modal-title">Codechef</h3>
-
-                            <p class="services__modal-description">
-                                <img src="assets\img\platforms\CODECHEF-Profile.PNG" alt="Certificate 5" />
-                            </p>
-
-                            <ul class="services__modal-list">
-                                <li class="services__modal-item">
-                                    <i class='bx bx-check-circle'></i>
-                                    <p class="services__modal-info">
-                                        Problem solved : 140+
-                                    </p>
-                                </li>
-
-                                <li class="services__modal-item">
-                                    <i class='bx bx-check-circle'></i>
-                                    <p class="services__modal-info">
-                                        CodeChef Rating : 998
-                                    </p>
-                                </li>
-
-                                <li class="services__modal-item">
-                                    <i class='bx bx-check-circle'></i>
-                                    <p class="services__modal-info">
-                                        Star :  <i class='bx bxs-star' ></i>
-                                    </p>
-                                </li>
-
-                                <li class="services__modal-item">
-                                    <i class='bx bx-check-circle'></i>
-                                    <p class="services__modal-info">
-                                        Problem Solver - Bronze Badge
-                                    </p>
-                                </li>
-
-                                <li class="services__modal-item">
-                                    <i class='bx bx-check-circle'></i>
-                                    <p class="services__modal-info">
-                                        Daily Streak - Bronze Badge
-                                    </p>
-                                </li>
-                            </ul>
-                            <a href="https://www.codechef.com/users/kawin08" class="services__modal-button" target="_blank">
-                                Visit Profile
-                            </a>
-                            
-                        </div>
-                    </div>
-                </div>
-
-                <div class="services__card">
-                    <img src="assets\img\platforms\hackerRank.png" alt="Certificate 5" />
-                        <br><br>
-                    <span class="services__button">
-                        See More <i class='bx bx-right-arrow services__icon'></i>
-                    </span>
-
-                    <div class="services__modal">
-                        <div class="services__modal-content">
-                            <i class='bx bx-x services__modal-close'></i>
-
-                            <h3 class="services__modal-title">HackerRank</h3>
-
-                            <p class="services__modal-description">
-                                <img src="assets\img\platforms\HackerRank-profile.PNG" alt="Certificate 5" />
-                            </p>
-
-                            <ul class="services__modal-list">
-                                <li class="services__modal-item">
-                                    <i class='bx bx-check-circle'></i>
-                                    <p class="services__modal-info">
-                                        Hackos: 309
-                                    </p>
-                                </li>
-
-                                <li class="services__modal-item">
-                                    <i class='bx bx-check-circle'></i>
-                                    <p class="services__modal-info">
-                                        Java : Gold level (260+ points)
-                                    </p>
-                                </li>
-
-                                <li class="services__modal-item">
-                                    <i class='bx bx-check-circle'></i>
-                                    <p class="services__modal-info">
-                                        Python : Bronze level ( 85 points )
-                                    </p>
-                                </li>
-
-                                <li class="services__modal-item">
-                                    <i class='bx bx-check-circle'></i>
-                                    <p class="services__modal-info">
-                                        I position your company brand.
-                                    </p>
-                                </li>
-
-                                <li class="services__modal-item">
-                                    <i class='bx bx-check-circle'></i>
-                                    <p class="services__modal-info">
-                                        C : Bronze level ( 35 points )
-                                    </p>
-                                </li>
-
-                                <li class="services__modal-item">
-                                    <i class='bx bx-check-circle'></i>
-                                    <p class="services__modal-info">
-                                        Certificates : SQL (Basic , Intermediate , Advanced)
-                                    </p>
-                                </li>
-
-                            </ul>
-                            <a href="https://www.hackerrank.com/profile/kawinprabha08" class="services__modal-button" target="_blank">
-                                Visit Profile
-                            </a>
-                            
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-
-        <!--=============== Certificate ===============-->
-
-        <section class="services section" id="Certificate">
-            <span class="section__subtitle">My Services</span>
-            <h2 class="section__title">My Certificate</h2>
-
-            <div class="services__container container grid">
-                <div class="services__card">
-                    <div class="serv">
-                        <h3 class="services__title">Mastering Data Structures & Algorithms</h3>
-
-                        <span class="services__button">
-                            See More <i class='bx bx-right-arrow services__icon'></i>
-                        </span>
-                    </div>
-
-
-                    <div class="services__modal">
-                        <div class="services__modal-content">
-                            <i class='bx bx-x services__modal-close'></i>
-
-                            <h3 class="services__modal-title">Mastering Data Structures & Algorithms using C and C++</h3>
-
-                            <p class="services__modal-description">
-                                <img src="assets\img\Cirtif\UDEMYCandCpp.png" alt="Certificate 5" />
-                            </p>
-
-                            <ul class="services__modal-list">
-                                <li class="services__modal-item">
-                                    <i class='bx bx-check-circle'></i>
-                                    <p class="services__modal-info">
-                                        Instructor : Abdul Bari
-                                    </p>
-                                </li>
-
-                                <li class="services__modal-item">
-                                    <i class='bx bx-check-circle'></i>
-                                    <p class="services__modal-info">
-                                        Duration : 58.5 hours video
-                                    </p>
-                                </li>
-
-                                <li class="services__modal-item">
-                                    <i class='bx bx-check-circle'></i>
-                                    <p class="services__modal-info">
-                                        Understand and apply recursion techniques to solve complex problems.
-                                    </p>
-                                </li>
-
-                                <li class="services__modal-item">
-                                    <i class='bx bx-check-circle'></i>
-                                    <p class="services__modal-info">
-                                        Efficiently implement and manipulate data structures
-                                    </p>
-                                </li>
-
-                                <li class="services__modal-item">
-                                    <i class='bx bx-check-circle'></i>
-                                    <p class="services__modal-info">
-                                        Optimized data retrieval and network analysis
-                                    </p>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="services__card">
-                    <div class="serv">
-                        <h3 class="services__title">Java- Beginner to Master</h3>
-
-                        <span class="services__button">
-                            See More <i class='bx bx-right-arrow services__icon'></i>
-                        </span>
-                    </div>
-
-
-                    <div class="services__modal">
-                        <div class="services__modal-content">
-                            <i class='bx bx-x services__modal-close'></i>
-
-                            <h3 class="services__modal-title">Learn JAVA Programming</h3>
-
-                            <p class="services__modal-description">
-                                <img src="assets\img\Cirtif\UDEMY OOPS.jpg" alt="Certificate 5" />
-                            </p>
-
-                            <ul class="services__modal-list">
-                                <li class="services__modal-item">
-                                    <i class='bx bx-check-circle'></i>
-                                    <p class="services__modal-info">
-                                        Instructor : Abdul Bari
-                                    </p>
-                                </li>
-
-                                <li class="services__modal-item">
-                                    <i class='bx bx-check-circle'></i>
-                                    <p class="services__modal-info">
-                                        Duration : 62 hours video
-                                    </p>
-                                </li>
-
-                                <li class="services__modal-item">
-                                    <i class='bx bx-check-circle'></i>
-                                    <p class="services__modal-info">
-                                        Gain proficiency in setting up and configuring the Java development environment.
-                                    </p>
-                                </li>
-
-                                <li class="services__modal-item">
-                                    <i class='bx bx-check-circle'></i>
-                                    <p class="services__modal-info">
-                                        Understand and apply object-oriented programming concepts
-                                    </p>
-                                </li>
-
-                                <li class="services__modal-item">
-                                    <i class='bx bx-check-circle'></i>
-                                    <p class="services__modal-info">
-                                        Learn network programming basics to create and manage networked applications.
-                                    </p>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="services__card">
-                    <h3 class="services__title">Best Paper Award</h3>
-                    <span class="services__button">
-                        See More <i class='bx bx-right-arrow services__icon'></i>
-                    </span>
-
-                    <div class="services__modal">
-                        <div class="services__modal-content">
-                            <i class='bx bx-x services__modal-close'></i>
-
-                            <h3 class="services__modal-title">Best Paper Award </h3>
-
-                            <p class="services__modal-description">
-                                <img src="assets\img\Cirtif\BIT-best-paper-award.jpg" alt="Certificate 5" />
-                            </p>
-
-                            <ul class="services__modal-list">
-                                <li class="services__modal-item">
-                                    <i class='bx bx-check-circle'></i>
-                                    <p class="services__modal-info">
-                                        Institution : Bannari Amman Institute of Technology
-                                    </p>
-                                </li>
-
-                                <li class="services__modal-item">
-                                    <i class='bx bx-check-circle'></i>
-                                    <p class="services__modal-info">
-                                        Best Paper award
-                                    </p>
-                                </li>
-                                <li class="services__modal-item">
-                                    <i class='bx bx-check-circle'></i>
-                                    <p class="services__modal-info">
-                                        Event name : BIT V-PRAYUKTI,23
-                                    </p>
-                                </li>
-                                <li class="services__modal-item">
-                                    <i class='bx bx-check-circle'></i>
-                                    <p class="services__modal-info">
-                                        Preseted a concept of implementing ai&ml in visually impaired people
-                                    </p>
-                                </li>
-
-                                <li class="services__modal-item">
-                                    <i class='bx bx-check-circle'></i>
-                                    <p class="services__modal-info">
-                                        Year : 2023
-                                    </p>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-
-        
-
-        <!--=============== MY PROJECTS ===============-->
-        <section class="work section" id="work">
-            <span class="section__subtitle">My Portfolio</span>
-            <h2 class="section__title">Recent Projects</h2>
-
-            <div class="work__filters">
-                <span class="work__item active-work" data-filter='all'>All</span>
-                <span class=" work__item" data-filter='.ml'>ML</span>
-                <span class=" work__item" data-filter='.react'>React</span>
-                <span class=" work__item" data-filter='.others'>Others</span>
-                <span class=" work__item" data-filter='.sample'>sample</span>
-            </div>
-
-            <div class="work__container container grid">
-                <div class="work__card mix ml">
-                    <img src="assets/img/work1.jpg" alt="" class="work__img">
-
-                    <h3 class="work__title">Recomendation System</h3>
-
-                    <a href="#" class="work__button">
-                        Demo <i class='bx bx-right-arrow work__icon'></i>
-                    </a>
-                </div>
-
-                <div class="work__card mix react">
-                    <img src="assets\img\Projects\Expennce-img.PNG" alt="" class="work__img">
-
-                    <h3 class="work__title">Expence Tracker</h3>
-                    <br>
-
-                    <a href="https://github.com/Kawinkawin/MERN--Expense-Tracker" class="work__button">
-                        Github <i class='bx bx-right-arrow work__icon'></i>
-                    </a>
-                </div>
-
-                <!--
-                <div class="work__card mix others">
-                    <img src="assets/img/work3.jpg" alt="" class="work__img">
-
-                    <h3 class="work__title">Brand Design</h3>
-
-                    <a href="#" class="work__button">
-                        Demo <i class='bx bx-right-arrow work__icon'></i>
-                    </a>
-                </div>
-
-                <div class="work__card mix ml">
-                    <img src="assets/img/work4.jpg" alt="" class="work__img">
-
-                    <h3 class="work__title">Web Design</h3>
-
-                    <a href="#" class="work__button">
-                        Demo <i class='bx bx-right-arrow work__icon'></i>
-                    </a>
-                </div>
-
-                <div class="work__card mix sample">
-                    <img src="assets/img/work5.jpg" alt="" class="work__img">
-
-                    <h3 class="work__title">App Movil</h3>
-
-                    <a href="#" class="work__button">
-                        Demo <i class='bx bx-right-arrow work__icon'></i>
-                    </a>
-                </div>
-            -->
-
-            </div>
-        </section>
-
-        <!--=============== TESTIMONIALS ===============-->
-         <!--   <section class="testimonial section">
-            <span class="section__subtitle">My clients say</span>
-            <h2 class="section__title">Testimonials</h2>
-
-            <div class="testimonial__container container swiper">
-                <div class="swiper-wrapper">
-                    <div class="testimonial__card swiper-slide">
-                        <img src="assets/img/testimonial1.png" alt="" class="testimonial__img">
-
-                        <h3 class="testimonial__name">Jhon Doe</h3>
-                        <p class="testimonial__description">
-                            A really good job, all aspects of the project were done well.
-                            Very creative and thoughtful. I was very impressed and would recommend this to anyone.
-                        </p>
-                    </div>
-
-                    <div class="testimonial__card swiper-slide">
-                        <img src="assets/img/testimonial2.png" alt="" class="testimonial__img">
-
-                        <h3 class="testimonial__name">Ada Hill</h3>
-                        <p class="testimonial__description">
-                            A really good job, all aspects of the project were done well.
-                            Very creative and thoughtful. I was very impressed and would recommend this to anyone.
-                        </p>
-                    </div>
-
-                    <div class="testimonial__card swiper-slide">
-                        <img src="assets/img/testimonial3.png" alt="" class="testimonial__img">
-
-                        <h3 class="testimonial__name">Jessica Park</h3>
-                        <p class="testimonial__description">
-                            A really good job, all aspects of the project were done well.
-                            Very creative and thoughtful. I was very impressed and would recommend this to anyone.
-                        </p>
-                    </div>
-                </div>
-                <div class="swiper-pagination"></div>
-            </div>
-
-        </section>      -->
-
-        <!--=============== CONTACT ===============-->
-        <section class="contact section" id="contact">
-            <sapn class="section__subtitle">Get in touch</sapn>
-            <h3 class="section__title">Contact Me</h3>
-
-            <div class="contact__container container grid">
-                <div class="contact__content">
-                    <h3 class="contact__title contact__title-info">Talk to me</h3>
-
-                    <div class="contact__info">
-                        <div class="contact__card">
-                            <i class='bx bx-mail-send contact__card-icon'></i>
-                            <h3 class="contact__card-title">Email</h3>
-                            <span class="contact__card-data">kawinprabha08@gmail.com</span>
-
-                            <a href="mailto:kawinprabha08@gmail.com" target="_blank" class="contact__button">
-                                Write Me <i class='bx bx-right-arrow contact__button-icon'></i>
-                            </a>
-                        </div>
-
-                        <div class="contact__card">
-                            <i class='bx bxl-whatsapp contact__card-icon'></i>
-                            <h3 class="contact__card-title">Whatsapp</h3>
-                            <span class="contact__card-data">9994968155</span>
-
-                            <a href="https://api.whatsapp.com/send?phone=+919994968155&text=Hey there!" target="_blank"
-                                class="contact__button">
-                                Write Me <i class='bx bx-right-arrow contact__button-icon'></i>
-                            </a>
-                        </div>
-
-                        <div class="contact__card">
-                            <i class='bx bxl-linkedin contact__card-icon'></i>
-                            <h3 class="contact__card-title">Linkedin</h3>
-                            <span class="contact__card-data">KAWIN P</span>
-
-                            <a href="http://www.linkedin.com/in/kawin-prahakaran" target="_blank" class="contact__button">
-                                Connect.. <i class='bx bx-right-arrow contact__button-icon'></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="contact__content">
-                    <h3 class="contact__title contact__title-form">Write Me your Message</h3>
-
-                    <form action="" class="contact__form">
-                        <div class="contact__form-div">
-                            <label for="" class="contact__form-tag">Name</label>
-                            <input type="text" placeholder="Enter name" class="contact__form-input">
-                        </div>
-
-                        <div class="contact__form-div">
-                            <label for="" class="contact__form-tag">Mail</label>
-                            <input type="text" placeholder="Enter email" class="contact__form-input">
-                        </div>
-
-                        <div class="contact__form-div contact__form-area">
-                            <label for="" class="contact__form-tag">Message</label>
-                            <textarea name="" id="" cols="30" rows="10" placeholder="Write your Message"
-                                class="contact__form-input "></textarea>
-                        </div>
-
-
-                        <button class="button">
-                            Send Message
-                        </button>
-                    </form>
-
-                </div>
-
-        </section>
-    </main>
-
-    <!--=============== FOOTER ===============-->
-    <footer class="footer">
-        <div class="footer__container container">
-            <h1 class="footer__title">Kawin P</h1>
-
-            <ul class="footer__list">
-
-                <li class="footer__item">
-                    <a href="#" class="footer__link">Home</a>
-                </li>
-                <li class="footer__item">
-                    <a href="#about" class="footer__link">About</a>
-                </li>
-                <li class="footer__item">
-                    <a href="#skills" class="footer__link">Experience</a>
-                </li>
-                <li class="footer__item">
-                    <a href="#Achivemets" class="footer__link">Achivemets</a>
-                </li>
-            </ul>
-            <ul class="footer__list">
-                <li class="footer__item">
-                    <a href="#Certificate" class="footer__link">Certificate</a>
-                </li>
-                <li class="footer__item">
-                    <a href="#work" class="footer__link">Projects</a>
-                </li>
-                
-                <li class="footer__item">
-                    <a href="#contact" class="footer__link">Contact</a>
-                </li>
-                
-            </ul>
-
-            <ul class="footer__social">
-                <li class="footer__social-item">
-                    <a href="mailto:kawinprabha08@gmail.com" target="_blank" class="footer__social-link">
-                        <i class='bx bxl-gmail footer__social-icon'></i>
-                    </a>
-                </li>
-                <li class="footer__social-item">
-                    <a href="https://api.whatsapp.com/send?phone=+919994968155&text=Hey there!" target="_blank" class="footer__social-link">
-                        <i class='bx bxl-whatsapp footer__social-icon'></i>
-                    </a>
-                </li>
-                <li class="footer__social-item">
-                    <a href="http://www.linkedin.com/in/kawin-prahakaran" target="_blank" class="footer__social-link">
-                        <i class='bx bxl-linkedin footer__social-icon'></i>
-                    </a>
-                </li>
-                <li class="footer__social-item">
-                    <a href="https://github.com/Kawinkawin" target="_blank" class="footer__social-link">
-                        <i class='bx bxl-github footer__social-icon'></i>
-                    </a>
-                </li>
-            </ul>
-
-            
-        </div>
-    </footer>
-
-    <!--=============== SCROLLREVEAL ===============-->
-
-    <!-- <script src="assets/js/scrollreveal.min.js"></script> -->
-    <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
-
-    <!--=============== SWIPER JS ===============-->
-    <script src="assets/js/swiper-bundle.min.js"></script>
-
-    <!--=============== MIXITUP FILTER ===============-->
-    <script src="assets/js/mixitup.min.js"></script>
-
-    <!--=============== MAIN JS ===============-->
-    <script src="assets/js/main.js"></script>
+
+
+<nav class="navbar">
+  <div class="navbar-container">
+    <button class="hamburger" id="hamburgerBtn">☰</button>
+
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#hero">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#achievements">Achievements</a></li>
+      <li><a href="#certifications">Certifications</a></li>
+      <li><a href="#coding-profiles">Coding Profiles</a></li>
+      <li><a href="#resume-download">Resume</a></li>
+    </ul>
+  </div>
+</nav>
+
+<section id="hero" class="hero">
+  <div class="terminal" role="region" aria-live="polite" aria-atomic="true" aria-label="Terminal introduction">
+    <pre id="terminal-text"></pre>
+    <div class="cursor"></div>
+  </div>
+</section>
+
+<main>
+  <section id="about" class="section fade-in">
+    <h2>About Me_</h2>
+    <p>
+Hello! I'm currently pursuing an undergraduate degree in Artificial Intelligence and Data Science (AI&DS) at Sri Eshwar College of Engineering, Coimbatore, and I'm set to graduate in 2026. My interests span AI, data analytics, machine learning, deep learning, cloud computing, and networking. With a solid foundation in programming languages like Python and tools such as TensorFlow and SQL, I've developed and deployed machine learning models and analyzed large datasets. I aim to apply these technologies to solve real-world problems and drive innovation in fields like healthcare, finance, and cybersecurity. Outside academics, I enjoy exploring emerging tech trends, joining hackathons, and collaborating on meaningful projects.
+</p>
+
+<div class="contact-links">
+  <a href="https://github.com/Kawinkawin" target="_blank">
+    <i class="fab fa-github"></i> GitHub
+  </a>
+  <a href="www.linkedin.com/in/kawin-prahakaran" target="_blank">
+    <i class="fab fa-linkedin"></i> LinkedIn
+  </a>
+  <a href="mailto:kawinprabha08@gmail.com">
+    <i class="fas fa-envelope"></i> Email
+  </a>
+</div>
+
+  </section>
+
+<section id="projects" class="section">
+  <h2>Projects_<span class="section-svg" aria-hidden="true"></span></h2>
+
+  <div class="card-grid" id="projectGrid">
+    
+    <div class="card" tabindex="0">
+      <div class="card-header"><span></span><span></span><span></span></div>
+      <h3>Market Mind AI - Intelligent Stock Market Assistant</h3>
+      <p>Designed and built a product-centric AI platform that empowers investors with real-time financial data, sentiment-driven 
+insights, and stock recommendations. Focused on user-centric features such as dynamic dashboards, peer stock comparison, and 
+actionable Buy/Sell/Hold suggestions powered by NLP and machine learning.</p>
+      <div class="tech-stack">
+        <span>Streamlit</span><span> Python (LSTM)</span><span>MongoDB</span><span>Web Scraping, API Integration</span>
+      </div>
+        <a href="https://github.com/Kawinkawin/Market-Mind.AI" class="card-link" target="_blank">🔗 GitHub</a>
+
+
+    </div>
+
+    <div class="card" tabindex="0">
+  <div class="card-header"><span></span><span></span><span></span></div>
+  <h3>🩺 Arogyam.ai – Personalized HealthCare AI Advisor</h3>
+  <p>
+    Designed a smart doctor-patient consultation platform with role-based access control and a dynamic UI. 
+    Integrated real-time multilingual chat using Google Cloud Translation API and boosted interaction quality 
+    through domain-specific ML models for intelligent consultation support.
+  </p>
+  <div class="tech-stack">
+    <span>Python</span><span>Flask</span><span>MySQL</span>
+    <span>Google Cloud API</span><span>Hugging Face</span><span>Docker</span>
+  </div>
+  <a href="https://github.com/Kawinkawin/Arogyam.ai" class="card-link" target="_blank">🔗 GitHub</a>
+</div>
+
+
+<div class="card" tabindex="0">
+  <div class="card-header"><span></span><span></span><span></span></div>
+  <h3>🗣️ AI Speech Therapy Game</h3>
+  <p>
+    Developed an interactive AI-powered game to support speech therapy with personalized exercises and real-time feedback. 
+    Designed to motivate users through gamified experiences, track progress, and adapt therapy based on individual needs. 
+    Available across web, mobile, and desktop platforms.
+  </p>
+  <div class="tech-stack">
+    <span>AI/ML</span><span>Speech Recognition</span><span>Unity</span>
+    <span>Node.js / Python</span><span>MongoDB / MySQL</span>
+  </div>
+  <a href="https://github.com/Kawinkawin/AI-Speech-Therapy-Game" class="card-link" target="_blank" rel="noopener noreferrer">🔗 GitHub</a>
+</div>
+
+
+  </div>
+
+  <div style="text-align: center; margin-top: 2rem;">
+    <button id="toggleProjectsBtn" class="download-btn">View More</button>
+  </div>
+</section>
+
+<section id="skills" class="section">
+  <h2>Skills_<span class="section-svg" aria-hidden="true"></span></h2>
+
+  <div class="skill-tabs">
+    <button class="tab active" data-target="all">All</button>
+    <button class="tab" data-target="languages">Languages</button>
+    <button class="tab" data-target="frameworks">Frameworks</button>
+    <button class="tab" data-target="ml">ML/NLP</button>
+    <button class="tab" data-target="cloud">Cloud</button>
+    <button class="tab" data-target="tools">Tools</button>
+    <button class="tab" data-target="soft">Soft Skills</button>
+  </div>
+
+  <div class="skill-content">
+
+    <div class="skill-group active" id="all">
+      <div class="pill-grid">
+        <span>Python</span><span>JavaScript</span><span>C/C++</span><span>HTML</span><span>CSS</span>
+        <span>React.js</span><span>Node.js</span><span>Express.js</span><span>MERN</span>
+        <span>TensorFlow</span><span>Keras</span><span>NLP</span><span>LLMs</span><span>Pandas</span><span>Matplotlib</span>
+        <span>GCP</span><span>AWS</span><span>Azure</span>
+        <span>MongoDB</span><span>MySQL</span><span>REST APIs</span><span>Responsive UI</span><span>Tableau</span><span>PowerBI</span>
+        <span>Leadership</span><span>Teamwork</span><span>Problem Solving</span><span>Event Org</span>
+      </div>
+    </div>
+
+    <div class="skill-group" id="languages">
+      <div class="pill-grid">
+        <span>Python</span><span>JavaScript</span><span>C/C++</span><span>HTML</span><span>CSS</span>
+      </div>
+    </div>
+
+    <div class="skill-group" id="frameworks">
+      <div class="pill-grid">
+        <span>React.js</span><span>Node.js</span><span>Express.js</span><span>MERN</span>
+      </div>
+    </div>
+
+    <div class="skill-group" id="ml">
+      <div class="pill-grid">
+        <span>TensorFlow</span><span>Keras</span><span>NLP</span><span>LLMs</span><span>Pandas</span><span>Matplotlib</span>
+      </div>
+    </div>
+
+    <div class="skill-group" id="cloud">
+      <div class="pill-grid">
+        <span>GCP</span><span>AWS</span><span>Azure</span>
+      </div>
+    </div>
+
+    <div class="skill-group" id="tools">
+      <div class="pill-grid">
+        <span>MongoDB</span><span>MySQL</span><span>REST APIs</span><span>Responsive UI</span><span>Tableau</span><span>PowerBI</span>
+      </div>
+    </div>
+
+    <div class="skill-group" id="soft">
+      <div class="pill-grid">
+        <span>Leadership</span><span>Teamwork</span><span>Problem Solving</span><span>Event Org</span>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+<section id="achievements" class="section">
+  <h2>Achievements_<span class="section-svg" aria-hidden="true"></span></h2>
+
+  <div class="timeline">
+    <div class="timeline-item">
+      <div class="timeline-line"></div>
+      <div class="timeline-content">
+        <h3>💻 LeetCode – Top Rating 1500+</h3>
+        <p>Solved 300+ problems on data structures and algorithms; consistently ranked among top performers.</p>
+      </div>
+    </div>
+
+    <div class="timeline-item">
+      <div class="timeline-line"></div>
+      <div class="timeline-content">
+        <h3>👨‍🍳 CodeChef – 180+ Problems Solved</h3>
+        <p>Practiced and solved a wide range of competitive programming problems across various difficulty levels.</p>
+      </div>
+    </div>
+
+    <div class="timeline-item">
+      <div class="timeline-line"></div>
+      <div class="timeline-content">
+        <h3>🏅 HackerRank – 3 Certificates | 3 Badges</h3>
+        <p>Earned certifications and badges in Python, Problem Solving, and SQL through hands-on coding challenges.</p>
+      </div>
+    </div>
+
+    <div class="timeline-item">
+      <div class="timeline-line"></div>
+      <div class="timeline-content">
+        <h3>🚀 PSG iTech Hack Fest – National Level Hackathon</h3>
+        <p>Participated in a prestigious national-level hackathon, collaborating with peers to tackle real-world tech challenges.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section id="certifications" class="section">
+  <h2>Certifications_<span class="section-svg" aria-hidden="true"></span></h2>
+
+  <div class="timeline">
+
+    <div class="timeline-item">
+      <div class="timeline-line"></div>
+      <div class="timeline-content">
+        <h3>☁️ Cloud Computing & Distributed Systems – IIT Kanpur</h3>
+        <p>Certified in distributed systems and cloud architecture by IIT Kanpur.</p>
+        <a href="https://drive.google.com/file/d/1KuoY1rbruUaGO9T3hbQL79oisKRBUUCy/view?usp=sharing" class="card-link" target="_blank" rel="noopener noreferrer">🔗 View</a>
+      </div>
+    </div>
+
+    <div class="timeline-item">
+  <div class="timeline-line"></div>
+  <div class="timeline-content">
+    <h3>🔗 Certified in Blockchain and its Applications</h3>
+    <p>Successfully completed a certification course focused on the fundamentals and practical uses of blockchain technology.</p>
+    <a href="https://drive.google.com/file/d/1KuoY1rbruUaGO9T3hbQL79oisKRBUUCy/view?usp=sharing" class="card-link" target="_blank" rel="noopener noreferrer">🔗 View</a>
+  </div>
+</div>
+
+    <div class="timeline-item">
+      <div class="timeline-line"></div>
+      <div class="timeline-content">
+        <h3>📊 Data Fundamentals – IBM SkillsBuild </h3>
+        <p>Earned via IBM SkillsBuild platform, covering key concepts in data handling and analysis.</p>
+        <a href="https://www.credly.com/badges/9c47f81f-1cd2-452d-a558-ca2dfa6169fb/linked_in_profile" class="card-link" target="_blank" rel="noopener noreferrer">🔗 View</a>
+      </div>
+    </div>
+
+    <div class="timeline-item">
+      <div class="timeline-line"></div>
+      <div class="timeline-content">
+        <h3>🛠️ AWS Cloud Practitioner – Amazon</h3>
+        <p>Certified foundational understanding of AWS Cloud services and infrastructure.</p>
+        <a href="https://www.credly.com/badges/9c47f81f-1cd2-452d-a558-ca2dfa6169fb/linked_in_profile" class="card-link" target="_blank" rel="noopener noreferrer">🔗 View</a>
+      </div>
+    </div>
+
+    <div class="timeline-item">
+      <div class="timeline-line"></div>
+      <div class="timeline-content">
+        <h3>🧮 Structured Query Language (SQL) – HackerRank </h3>
+        <p>Hands-on certification in querying databases, joins, and SQL optimization.</p>
+        <a href="https://drive.google.com/file/d/16qs6KnDDAulXZI5cARThiZwZocaclW6K/view" class="card-link" target="_blank" rel="noopener noreferrer">🔗 View</a>
+      </div>
+    </div>
+
+    <div class="timeline-item">
+      <div class="timeline-line"></div>
+      <div class="timeline-content">
+        <h3>☕ Learn Java Programming: Beginner to Master – Udemy </h3>
+        <p>Comprehensive course covering Java fundamentals to advanced programming concepts.</p>
+        <a href="https://drive.google.com/file/d/16qs6KnDDAulXZI5cARThiZwZocaclW6K/view" class="card-link" target="_blank" rel="noopener noreferrer">🔗 View</a>
+      </div>
+    </div>
+
+    <div class="timeline-item">
+      <div class="timeline-line"></div>
+      <div class="timeline-content">
+        <h3>🧠 Mastering DSA in C & C++ – Udemy </h3>
+        <p>Certified in data structures and algorithm design and implementation in C/C++.</p>
+        <a href="https://drive.google.com/file/d/1vpZQEdL-Fw7FfXNOlKjCkDKmrybFi4KP/view" class="card-link" target="_blank" rel="noopener noreferrer">🔗 View</a>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+
+
+
+<section id="coding-profiles" class="section">
+  <h2>Coding Profiles_<span class="section-svg" aria-hidden="true"></span></h2>
+
+  <!-- Profile Tabs -->
+  <div class="skill-tabs">
+    <button class="tab active" data-target="leetcode">LeetCode</button>
+    <button class="tab" data-target="codechef">CodeChef</button>
+    <button class="tab" data-target="hackerrank">HackerRank</button>
+  </div>
+
+  <!-- Profile Content -->
+  <div class="skill-content">
+
+<div class="skill-group active" id="leetcode">
+  <div style="display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 2rem;">
+    
+    <!-- Text Content -->
+    <div style="flex: 1; min-width: 250px;">
+      <ul class="profile-list" style="margin: 0; padding-left: 1rem; font-size: 1rem;">
+        <li><strong>Username:</strong> KawinP</li>
+        <li><strong>Problems Solved:</strong> 300+</li>
+        <li><strong>Contests Attended:</strong> 40+</li>
+        <li><strong>Contest Rating:</strong>  1500+</li>
+        <li><strong>Reputation:</strong> 3+</li>
+      </ul>
+      <a href="https://leetcode.com/u/KawinP/" class="button" target="_blank" style="margin-top: 1rem; display: inline-block;">
+        View Profile
+      </a>
+    </div>
+    
+    <!-- Image Content -->
+    <div style="min-width: 180px; max-width: 220px;">
+      <img src="platforms/leetcode.png" alt="LeetCode" style="width: 100%; height: auto; object-fit: contain;">
+    </div>
+
+  </div>
+</div>
+
+
+
+
+    <div class="skill-group" id="codechef">
+  <div style="display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 2rem;">
+    
+    <!-- Text Content -->
+    <div style="flex: 1; min-width: 250px;">
+      <ul class="profile-list" style="margin: 0; padding-left: 1rem; font-size: 1rem;">
+        <li><strong>Username:</strong> kawin08</li>
+        <li><strong>Problems Solved:</strong> 180+</li>
+        <li><strong>Rating:</strong> 998</li>
+        <li><strong>Star:</strong> <i class='bx bxs-star'></i></li>
+        <li><strong>Badges:</strong> Problem Solver (Bronze), Daily Streak (Bronze)</li>
+      </ul>
+      <a href="https://www.codechef.com/users/kawin08" class="button" target="_blank" style="margin-top: 1rem; display: inline-block;">
+        View Profile
+      </a>
+    </div>
+    
+    <!-- Image Content -->
+    <div style="min-width: 180px; max-width: 220px;">
+      <img src="platforms/Codechef.png" alt="CodeChef" style="width: 100%; height: auto; object-fit: contain;">
+    </div>
+
+  </div>
+</div>
+
+
+    <div class="skill-group" id="hackerrank">
+  <div style="display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 2rem;">
+    
+    <!-- Text Content -->
+    <div style="flex: 1; min-width: 250px;">
+      <ul class="profile-list" style="margin: 0; padding-left: 1rem; font-size: 1rem;">
+        <li><strong>Username:</strong> kawinprabha08</li>
+        <li><strong>Hackos:</strong> 309</li>
+        <li><strong>Java:</strong> Gold (260+ pts)</li>
+        <li><strong>Python:</strong> Bronze (85 pts)</li>
+        <li><strong>C:</strong> Bronze (35 pts)</li>
+        <li><strong>Certificates:</strong> SQL (Basic, Intermediate, Advanced)</li>
+      </ul>
+      <a href="https://www.hackerrank.com/profile/kawinprabha08" class="button" target="_blank" style="margin-top: 1rem; display: inline-block;">
+        View Profile
+      </a>
+    </div>
+    
+    <!-- Image Content -->
+    <div style="min-width: 180px; max-width: 220px;">
+      <img src="platforms/hackerRank.png" alt="HackerRank" style="width: 100%; height: auto; object-fit: contain;">
+    </div>
+
+  </div>
+</div>
+
+</section>
+
+
+
+
+
+</main>
+
+<section id="resume-download" class="section fade-in">
+  <h2>Resume_</h2>
+  <p>Feel free to download my resume in PDF format.</p>
+  <a href="https://drive.google.com/file/d/1KO7HutVhAmtQRTJVL02phgwwNfBS5nxG/view?usp=drive_link" 
+   target="_blank" rel="noopener noreferrer">
+  <button class="download-btn" aria-label="Download Resume PDF">📄 Download Resume</button>
+</a>
+
+</section>
+
+
+
+
+
+<section class="voice-section">
+  <button id="voiceBtn" aria-label="Voice Interaction">🎤 Ask Me</button>
+  <div id="voiceResponse" role="status" aria-live="polite"></div>
+</section>
+
+<footer>
+  <p>© 2025 Kawin P • <a href="mailto:kawinprabha08@gmail.com">Email Me</a> | <a href="https://github.com/Kawinkawin" target="_blank">GitHub</a></p>
+</footer>
+
+
 </body>
-
 </html>
