@@ -18,6 +18,7 @@ document.addEventListener('DOMContentLoaded', () => {
     initCardTilt();
     initCertificationsScroll();
     initProjectsCarousel();
+    initExperienceModal();
 });
 
 /**
@@ -814,4 +815,79 @@ function initProjectsCarousel() {
     buildDots();
     updateCarousel(true);
     startAutoPlay();
+}
+
+/**
+ * Experience Modal
+ * ================================
+ */
+function initExperienceModal() {
+    const tiles = document.querySelectorAll('.exp-tile');
+    const overlay = document.getElementById('expModalOverlay');
+    const closeBtn = document.getElementById('expModalClose');
+    if (!overlay || tiles.length === 0) return;
+
+    const modalIcon = document.getElementById('expModalIcon');
+    const modalRole = document.getElementById('expModalRole');
+    const modalCompany = document.getElementById('expModalCompany');
+    const modalDuration = document.getElementById('expModalDuration');
+    const modalList = document.getElementById('expModalList');
+    const modalTechs = document.getElementById('expModalTechs');
+
+    function openModal(tile) {
+        const role = tile.dataset.role;
+        const company = tile.dataset.company;
+        const duration = tile.dataset.duration;
+        const iconClass = tile.dataset.icon;
+        const details = JSON.parse(tile.dataset.details || '[]');
+        const techs = JSON.parse(tile.dataset.techs || '[]');
+
+        // Set icon
+        modalIcon.innerHTML = `<i class="${iconClass}"></i>`;
+
+        // Set text
+        modalRole.textContent = role;
+        modalCompany.textContent = company;
+        modalDuration.textContent = duration;
+
+        // Set list
+        modalList.innerHTML = details.map(d => `<li>${d}</li>`).join('');
+
+        // Set tech tags
+        if (techs.length > 0) {
+            modalTechs.innerHTML = '<h4 style="width:100%;margin-bottom:0.5rem;font-size:0.875rem;font-weight:600;text-transform:uppercase;letter-spacing:1px;color:var(--text-light);">Tech Stack</h4>' +
+                techs.map(t => `<span class="tech-tag">${t}</span>`).join('');
+        } else {
+            modalTechs.innerHTML = '';
+        }
+
+        // Show modal
+        overlay.classList.add('active');
+        document.body.style.overflow = 'hidden';
+    }
+
+    function closeModal() {
+        overlay.classList.remove('active');
+        document.body.style.overflow = '';
+    }
+
+    // Click tiles to open
+    tiles.forEach(tile => {
+        tile.addEventListener('click', () => openModal(tile));
+    });
+
+    // Close button
+    closeBtn.addEventListener('click', closeModal);
+
+    // Click overlay background to close
+    overlay.addEventListener('click', (e) => {
+        if (e.target === overlay) closeModal();
+    });
+
+    // Escape key to close
+    document.addEventListener('keydown', (e) => {
+        if (e.key === 'Escape' && overlay.classList.contains('active')) {
+            closeModal();
+        }
+    });
 }

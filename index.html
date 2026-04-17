@@ -5,6 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <link rel="icon" type="image/png" href="assets\image.png">
+
+
     <!-- SEO Optimization -->
     <title>Kawin P | Web Developer, AI & Data Science Engineer Portfolio</title>
     <meta name="description"
@@ -70,10 +73,11 @@
             <ul class="nav-menu">
                 <li><a href="#home" class="nav-link active">Home</a></li>
                 <li><a href="#about" class="nav-link">About</a></li>
-                <li><a href="#internships" class="nav-link">Internships</a></li>
+                <li><a href="#internships" class="nav-link">Experience</a></li>
                 <li><a href="#education" class="nav-link">Education</a></li>
                 <li><a href="#projects" class="nav-link">Projects</a></li>
                 <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#certifications" class="nav-link">Certifications</a></li>
                 <li><a href="#contact" class="nav-link">Contact</a></li>
             </ul>
             <div class="nav-actions">
@@ -116,6 +120,11 @@
                 <a href="mailto:kawinprabha08@gmail.com" class="btn btn-secondary">
                     <i class="fas fa-envelope"></i>
                     <span>Get In Touch</span>
+                </a>
+                <a href="https://drive.google.com/file/d/1KO7HutVhAmtQRTJVL02phgwwNfBS5nxG/view?usp=drive_link"
+                    target="_blank" rel="noopener noreferrer" class="btn btn-outline">
+                    <i class="fas fa-download"></i>
+                    <span>Download Resume</span>
                 </a>
             </div>
             <div class="hero-stats">
@@ -192,99 +201,86 @@
         </div>
     </section>
 
-    <!-- Internships Section -->
+    <!-- Experience Section -->
     <section id="internships" class="experience">
         <div class="container">
             <div class="section-header">
-                <span class="section-tag">Internships</span>
+                <span class="section-tag">Experience</span>
                 <h2 class="section-title">Professional Experience</h2>
             </div>
-            <div class="timeline-horizontal">
-                <!-- Experience 1 -->
-                <div class="timeline-h-item">
-                    <div class="timeline-h-line"></div>
-                    <div class="timeline-h-dot"></div>
-                    <div class="timeline-h-card">
-                        <div class="card-header">
-                            <div class="company-icon">
-                                <i class="fas fa-tasks"></i>
-                            </div>
-                            <div class="company-info">
-                                <h3>Project Management Intern</h3>
-                                <span class="company-name">Teceze ltd</span>
-                                <span class="duration">March 2026 - Present (2 Months)</span>
-                            </div>
-                        </div>
-                        <ul class="experience-list">
-                            <li>Automated workflows improving efficiency and AI-driven project visibility</li>
-                            <li>Collaborated with engineers supporting technical execution and ML integration</li>
-                            <li>Managed stakeholders ensuring timely delivery of AI-focused initiatives</li>
-                            <li>Translated technical concepts into impactful AI/ML business presentations</li>
-                        </ul>
+            <div class="experience-tiles">
+                <!-- Experience Tile 1 -->
+                <div class="exp-tile" id="expTile1" data-role="Project Management Intern" data-company="Teceze ltd"
+                    data-duration="March 2026 - Present (2 Months)" data-icon="fas fa-tasks"
+                    data-details='["Automated workflows improving efficiency and AI-driven project visibility","Collaborated with engineers supporting technical execution and ML integration","Managed stakeholders ensuring timely delivery of AI-focused initiatives","Translated technical concepts into impactful AI/ML business presentations"]'
+                    data-techs='[]'>
+                    <div class="exp-tile-icon">
+                        <i class="fas fa-tasks"></i>
                     </div>
+                    <div class="exp-tile-info">
+                        <h3>Project Management Intern</h3>
+                        <span class="exp-tile-company">Teceze ltd</span>
+                    </div>
+                    <span class="exp-tile-duration">March 2026 - Present</span>
+                    <i class="fas fa-arrow-right exp-tile-arrow"></i>
                 </div>
 
-                <!-- Experience 2 -->
-                <div class="timeline-h-item">
-                    <div class="timeline-h-line"></div>
-                    <div class="timeline-h-dot"></div>
-                    <div class="timeline-h-card">
-                        <div class="card-header">
-                            <div class="company-icon">
-                                <i class="fas fa-chart-line"></i>
-                            </div>
-                            <div class="company-info">
-                                <h3>Data Science Intern</h3>
-                                <span class="company-name">V3 Analytics</span>
-                                <span class="duration">2024 (6 Months)</span>
-                            </div>
-                        </div>
-                        <ul class="experience-list">
-                            <li>Analyzed real-world datasets to extract meaningful insights</li>
-                            <li>Applied predictive modeling techniques</li>
-                            <li>Presented findings effectively to stakeholders</li>
-                        </ul>
-                        <div class="tech-stack">
-                            <span class="tech-tag">Python</span>
-                            <span class="tech-tag">Pandas</span>
-                            <span class="tech-tag">NumPy</span>
-                            <span class="tech-tag">Matplotlib</span>
-                            <span class="tech-tag">Seaborn</span>
-                            <span class="tech-tag">scikit-learn</span>
-                        </div>
+                <!-- Experience Tile 2 -->
+                <div class="exp-tile" id="expTile2" data-role="Data Science Intern" data-company="V3 Analytics"
+                    data-duration="2024 (6 Months)" data-icon="fas fa-chart-line"
+                    data-details='["Analyzed real-world datasets to extract meaningful insights","Applied predictive modeling techniques","Presented findings effectively to stakeholders"]'
+                    data-techs='["Python","Pandas","NumPy","Matplotlib","Seaborn","scikit-learn"]'>
+                    <div class="exp-tile-icon">
+                        <i class="fas fa-chart-line"></i>
                     </div>
+                    <div class="exp-tile-info">
+                        <h3>Data Science Intern</h3>
+                        <span class="exp-tile-company">V3 Analytics</span>
+                    </div>
+                    <span class="exp-tile-duration">2024 (6 Months)</span>
+                    <i class="fas fa-arrow-right exp-tile-arrow"></i>
                 </div>
 
-                <!-- Experience 3 -->
-                <div class="timeline-h-item">
-                    <div class="timeline-h-line"></div>
-                    <div class="timeline-h-dot"></div>
-                    <div class="timeline-h-card">
-                        <div class="card-header">
-                            <div class="company-icon">
-                                <i class="fab fa-python"></i>
-                            </div>
-                            <div class="company-info">
-                                <h3>Django Framework Intern</h3>
-                                <span class="company-name">RV Tech Learn</span>
-                                <span class="duration">2024 (3 Months)</span>
-                            </div>
-                        </div>
-                        <ul class="experience-list">
-                            <li>Created APIs and streamlined user authentication</li>
-                            <li>Spearheaded database integration efforts</li>
-                            <li>Collaborated on emerging technology exploration</li>
-                        </ul>
-                        <div class="tech-stack">
-                            <span class="tech-tag">Django</span>
-                            <span class="tech-tag">Bootstrap</span>
-                            <span class="tech-tag">SQLite</span>
-                        </div>
+                <!-- Experience Tile 3 -->
+                <div class="exp-tile" id="expTile3" data-role="Django Framework Intern" data-company="RV Tech Learn"
+                    data-duration="2024 (3 Months)" data-icon="fab fa-python"
+                    data-details='["Created APIs and streamlined user authentication","Spearheaded database integration efforts","Collaborated on emerging technology exploration"]'
+                    data-techs='["Django","Bootstrap","SQLite"]'>
+                    <div class="exp-tile-icon">
+                        <i class="fab fa-python"></i>
                     </div>
+                    <div class="exp-tile-info">
+                        <h3>Django Framework Intern</h3>
+                        <span class="exp-tile-company">RV Tech Learn</span>
+                    </div>
+                    <span class="exp-tile-duration">2024 (3 Months)</span>
+                    <i class="fas fa-arrow-right exp-tile-arrow"></i>
                 </div>
             </div>
         </div>
     </section>
+
+    <!-- Experience Detail Modal -->
+    <div class="exp-modal-overlay" id="expModalOverlay">
+        <div class="exp-modal">
+            <button class="exp-modal-close" id="expModalClose" aria-label="Close modal">
+                <i class="fas fa-times"></i>
+            </button>
+            <div class="exp-modal-header">
+                <div class="exp-modal-icon" id="expModalIcon"></div>
+                <div class="exp-modal-title-wrap">
+                    <h3 id="expModalRole"></h3>
+                    <span class="exp-modal-company" id="expModalCompany"></span>
+                    <span class="exp-modal-duration" id="expModalDuration"></span>
+                </div>
+            </div>
+            <div class="exp-modal-body">
+                <h4>Key Responsibilities</h4>
+                <ul class="exp-modal-list" id="expModalList"></ul>
+                <div class="exp-modal-techs" id="expModalTechs"></div>
+            </div>
+        </div>
+    </div>
 
     <!-- Education Section -->
     <section id="education" class="education">
@@ -312,11 +308,11 @@
                         </div>
 
                     </div>
-                    <ul class="education-list">
+                    <!-- <ul class="education-list">
                         <li>Comprehensive study of AI, ML, and Data Science</li>
                         <li>Hands-on projects in deep learning and NLP</li>
                         <li>Active participation in hackathons and competitions</li>
-                    </ul>
+                    </ul> -->
                 </div>
 
                 <!-- Education 2 -->
@@ -377,10 +373,12 @@
                                 </div>
                                 <div class="project-overlay">
                                     <div class="project-links">
-                                        <a href="#" class="project-link" title="View Demo">
+                                        <a href="https://github.com/Kawinkawin/Market-Mind.AI" class="project-link"
+                                            title="View Demo">
                                             <i class="fas fa-external-link-alt"></i>
                                         </a>
-                                        <a href="#" class="project-link" title="View Code">
+                                        <a href="https://github.com/Kawinkawin/Market-Mind.AI" class="project-link"
+                                            title="View Code">
                                             <i class="fab fa-github"></i>
                                         </a>
                                     </div>
@@ -411,7 +409,8 @@
                                         <a href="#" class="project-link" title="View Demo">
                                             <i class="fas fa-external-link-alt"></i>
                                         </a>
-                                        <a href="#" class="project-link" title="View Code">
+                                        <a href="https://github.com/Kawinkawin/Arogyam.ai" class="project-link"
+                                            title="View Code">
                                             <i class="fab fa-github"></i>
                                         </a>
                                     </div>
@@ -470,10 +469,12 @@
                                 </div>
                                 <div class="project-overlay">
                                     <div class="project-links">
-                                        <a href="#" class="project-link" title="View Demo">
+                                        <a href="https://github.com/Kawinkawin/AI-Speech-Therapy-Game"
+                                            class="project-link" title="View Demo">
                                             <i class="fas fa-external-link-alt"></i>
                                         </a>
-                                        <a href="#" class="project-link" title="View Code">
+                                        <a href="https://github.com/Kawinkawin/AI-Speech-Therapy-Game"
+                                            class="project-link" title="View Code">
                                             <i class="fab fa-github"></i>
                                         </a>
                                     </div>
@@ -501,10 +502,12 @@
                                 </div>
                                 <div class="project-overlay">
                                     <div class="project-links">
-                                        <a href="#" class="project-link" title="View Demo">
+                                        <a href="https://github.com/Kawinkawin/Surveillance-Using-Vision-Transformers"
+                                            class="project-link" title="View Demo">
                                             <i class="fas fa-external-link-alt"></i>
                                         </a>
-                                        <a href="#" class="project-link" title="View Code">
+                                        <a href="https://github.com/Kawinkawin/Surveillance-Using-Vision-Transformers"
+                                            class="project-link" title="View Code">
                                             <i class="fab fa-github"></i>
                                         </a>
                                     </div>
@@ -693,8 +696,8 @@
                             <span>GitHub</span>
                         </div>
                         <div class="tool-item">
-                            <i class="fab fa-git-alt"></i>
-                            <span>Git</span>
+                            <i class="fas fa-diagram-project"></i>
+                            <span>n8n</span>
                         </div>
                         <div class="tool-item">
                             <i class="fas fa-chart-pie"></i>
@@ -710,6 +713,7 @@
                         </div>
                     </div>
                 </div>
+
             </div>
         </div>
     </section>
@@ -959,17 +963,14 @@
                         <a href="tel:+919994968155">+91 99949 68155</a>
                     </div>
                     <div class="contact-social">
-                        <a href="#" class="social-link" title="GitHub">
+                        <a href="https://github.com/Kawinkawin" class="social-link" title="GitHub">
                             <i class="fab fa-github"></i>
                         </a>
-                        <a href="#" class="social-link" title="LinkedIn">
+                        <a href="https://www.linkedin.com/in/kawin-prahakaran/" class="social-link" title="LinkedIn">
                             <i class="fab fa-linkedin-in"></i>
                         </a>
                         <a href="#" class="social-link" title="LeetCode">
                             <i class="fas fa-code"></i>
-                        </a>
-                        <a href="#" class="social-link" title="HackerRank">
-                            <i class="fab fa-hackerrank"></i>
                         </a>
                     </div>
                 </div>
@@ -1006,13 +1007,13 @@
                 <div class="footer-links">
                     <a href="#home">Home</a>
                     <a href="#about">About</a>
+                    <a href="#internships">Experience</a>
                     <a href="#projects">Projects</a>
                     <a href="#contact">Contact</a>
                 </div>
             </div>
             <div class="footer-bottom">
                 <p>&copy; 2025 Kawin P. All rights reserved.</p>
-                <p class="footer-credit">Crafted with <i class="fas fa-heart"></i> and code</p>
             </div>
         </div>
     </footer>
