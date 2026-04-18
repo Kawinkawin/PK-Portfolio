@@ -1338,6 +1338,20 @@ section {
     flex-shrink: 0;
 }
 
+.exp-tile-current {
+    display: inline-block;
+    font-size: 0.65rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding: 0.25rem 0.6rem;
+    background: var(--gradient-1);
+    color: var(--white);
+    border-radius: 50px;
+    margin-top: 0.5rem;
+    width: fit-content;
+}
+
 .exp-tile-arrow {
     color: var(--text-light);
     font-size: 0.875rem;
@@ -1929,12 +1943,12 @@ section {
 
 .sticky-header {
     position: sticky;
-    top: 100px;
-    z-index: 10;
+    top: 40px;
+    z-index: 100;
     text-align: center;
-    margin-bottom: 3rem;
-    background: linear-gradient(to bottom, var(--light) 60%, transparent);
-    padding: 2rem 0;
+    margin-bottom: 1rem;
+    background: linear-gradient(to bottom, var(--light) 70%, transparent);
+    padding: 0.5rem 0;
 }
 
 .scroll-hint {
@@ -1973,7 +1987,7 @@ section {
 
 .stack-card {
     position: sticky;
-    top: 150px;
+    top: 320px;
     width: 100%;
     margin-bottom: 2rem;
     transform-origin: center top;
@@ -1983,27 +1997,39 @@ section {
 }
 
 .stack-card:nth-child(1) {
-    top: 150px;
-}
-
-.stack-card:nth-child(2) {
-    top: 170px;
-}
-
-.stack-card:nth-child(3) {
-    top: 190px;
-}
-
-.stack-card:nth-child(4) {
-    top: 210px;
-}
-
-.stack-card:nth-child(5) {
     top: 230px;
 }
 
-.stack-card:nth-child(6) {
+.stack-card:nth-child(2) {
     top: 250px;
+}
+
+.stack-card:nth-child(3) {
+    top: 270px;
+}
+
+.stack-card:nth-child(4) {
+    top: 290px;
+}
+
+.stack-card:nth-child(5) {
+    top: 310px;
+}
+
+.stack-card:nth-child(6) {
+    top: 330px;
+}
+
+.stack-card:nth-child(7) {
+    top: 345px;
+}
+
+.stack-card:nth-child(8) {
+    top: 360px;
+}
+
+.stack-card:nth-child(9) {
+    top: 375px;
 }
 
 .card-inner {
@@ -2168,6 +2194,118 @@ section {
     color: #e11d48;
 }
 
+.stack-card:nth-child(7) .card-visual {
+    background: linear-gradient(135deg, #10b981 0%, #059669 40%, #047857 100%);
+}
+
+.stack-card:nth-child(7) .card-inner {
+    border-color: rgba(16, 185, 129, 0.2);
+}
+
+.stack-card:nth-child(7) .card-number {
+    color: rgba(255, 255, 255, 0.2);
+}
+
+.stack-card:nth-child(7) .card-icon-large {
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.stack-card:nth-child(7) .card-icon-large i {
+    color: var(--white);
+}
+
+.stack-card:nth-child(7) .card-tags span {
+    background: rgba(16, 185, 129, 0.1);
+    color: #10b981;
+    border-color: rgba(16, 185, 129, 0.2);
+}
+
+.stack-card:nth-child(7) .card-tags span:hover {
+    background: #10b981;
+    color: var(--white);
+}
+
+.stack-card:nth-child(7) .card-org {
+    color: #10b981;
+}
+
+.stack-card:nth-child(8) .card-visual {
+    background: linear-gradient(135deg, #f97316 0%, #ea580c 40%, #c2410c 100%);
+}
+
+.stack-card:nth-child(8) .card-inner {
+    border-color: rgba(249, 115, 22, 0.2);
+}
+
+.stack-card:nth-child(8) .card-number {
+    color: rgba(255, 255, 255, 0.2);
+}
+
+.stack-card:nth-child(8) .card-icon-large {
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.stack-card:nth-child(8) .card-icon-large i {
+    color: var(--white);
+}
+
+.stack-card:nth-child(8) .card-tags span {
+    background: rgba(249, 115, 22, 0.1);
+    color: #f97316;
+    border-color: rgba(249, 115, 22, 0.2);
+}
+
+.stack-card:nth-child(8) .card-tags span:hover {
+    background: #f97316;
+    color: var(--white);
+}
+
+.stack-card:nth-child(8) .card-org {
+    color: #f97316;
+}
+
+.stack-card:nth-child(9) .card-visual {
+    background: linear-gradient(135deg, #14b8a6 0%, #0d9488 40%, #0f766e 100%);
+}
+
+.stack-card:nth-child(9) .card-inner {
+    border-color: rgba(20, 184, 166, 0.2);
+}
+
+.stack-card:nth-child(9) .card-number {
+    color: rgba(255, 255, 255, 0.2);
+}
+
+.stack-card:nth-child(9) .card-icon-large {
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.stack-card:nth-child(9) .card-icon-large i {
+    color: var(--white);
+}
+
+.stack-card:nth-child(9) .card-tags span {
+    background: rgba(20, 184, 166, 0.1);
+    color: #14b8a6;
+    border-color: rgba(20, 184, 166, 0.2);
+}
+
+.stack-card:nth-child(9) .card-tags span:hover {
+    background: #14b8a6;
+    color: var(--white);
+}
+
+.stack-card:nth-child(9) .card-org {
+    color: #14b8a6;
+}
+
+
 .card-visual::before {
     content: '';
     position: absolute;
@@ -2284,7 +2422,7 @@ section {
 }
 
 .stack-spacer {
-    height: 40vh;
+    height: 80vh;
 }
 
 /* Scroll Animation States */
@@ -2348,6 +2486,19 @@ section {
     .stack-card:nth-child(6) {
         animation-range: 50% 65%;
     }
+
+    .stack-card:nth-child(7) {
+        animation-range: 60% 75%;
+    }
+
+    .stack-card:nth-child(8) {
+        animation-range: 70% 85%;
+    }
+
+    .stack-card:nth-child(9) {
+        animation-range: 80% 95%;
+    }
+
 }
 
 
@@ -3034,32 +3185,45 @@ section {
     }
 
     .sticky-header {
-        top: 80px;
+        top: 60px;
     }
 
     .stack-card:nth-child(1) {
-        top: 120px;
+        top: 280px;
     }
 
     .stack-card:nth-child(2) {
-        top: 130px;
+        top: 290px;
     }
 
     .stack-card:nth-child(3) {
-        top: 140px;
+        top: 300px;
     }
 
     .stack-card:nth-child(4) {
-        top: 150px;
+        top: 310px;
     }
 
     .stack-card:nth-child(5) {
-        top: 160px;
+        top: 320px;
     }
 
     .stack-card:nth-child(6) {
-        top: 170px;
+        top: 330px;
     }
+
+    .stack-card:nth-child(7) {
+        top: 340px;
+    }
+
+    .stack-card:nth-child(8) {
+        top: 350px;
+    }
+
+    .stack-card:nth-child(9) {
+        top: 360px;
+    }
+
 
     /* Achievements */
     .achievements-grid {
@@ -3351,31 +3515,44 @@ section {
     }
 
     .stack-card:nth-child(1) {
-        top: 110px;
+        top: 270px;
     }
 
     .stack-card:nth-child(2) {
-        top: 118px;
+        top: 278px;
     }
 
     .stack-card:nth-child(3) {
-        top: 126px;
+        top: 286px;
     }
 
     .stack-card:nth-child(4) {
-        top: 134px;
+        top: 294px;
     }
 
     .stack-card:nth-child(5) {
-        top: 142px;
+        top: 302px;
     }
 
     .stack-card:nth-child(6) {
-        top: 150px;
+        top: 310px;
     }
 
+    .stack-card:nth-child(7) {
+        top: 318px;
+    }
+
+    .stack-card:nth-child(8) {
+        top: 326px;
+    }
+
+    .stack-card:nth-child(9) {
+        top: 334px;
+    }
+
+
     .stack-spacer {
-        height: 25vh;
+        height: 60vh;
     }
 
     /* Achievements */
@@ -3459,4 +3636,9 @@ section {
         width: 100%;
         justify-content: center;
     }
+}
+
+.card-desc a i {
+    font-size: 0.7em;
+    margin-right: 0.25rem;
 }
