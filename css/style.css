@@ -1327,6 +1327,13 @@ section {
     font-weight: 500;
 }
 
+.exp-tile-meta {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    flex-shrink: 0;
+}
+
 .exp-tile-duration {
     font-size: 0.8rem;
     color: var(--text-light);
@@ -1335,8 +1342,20 @@ section {
     border-radius: 50px;
     white-space: nowrap;
     font-weight: 500;
-    flex-shrink: 0;
 }
+
+
+
+/* .exp-tile-meta .education-status {
+    font-size: 0.65rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding: 0.25rem 0.6rem;
+    background: var(--gradient-1);
+    color: var(--white);
+    border-radius: 50px;
+} */
 
 .exp-tile-current {
     display: inline-block;
