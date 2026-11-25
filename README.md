@@ -4,8 +4,6 @@ Enterprise-grade React + TypeScript migration of Kawin P's personal portfolio we
 
 ## Tech Stack
 
-
-
 - **Framework**: React 19 + TypeScript (strict mode)
 - **Build Tool**: Vite 6
 - **Routing**: React Router DOM v7 (`BrowserRouter`, lazy-loaded 404 route)
@@ -138,3 +136,6 @@ This portfolio includes a centralized SEO and Answer Engine Optimization (AEO) a
   2. Choose **HTML tag** verification, copy the `content` token, set `VITE_GSC_VERIFICATION=<token>` in `.env`, and deploy (or verify via DNS TXT record / placing Google's verification HTML file in `public/`).
   3. Submit `https://portfolio.kawinprabhakaran.online/sitemap.xml` under **Indexing → Sitemaps** in Google Search Console and Bing Webmaster Tools.
 - **Schema Validation**: Validate rendered JSON-LD at [Schema.org Validator](https://validator.schema.org/) or Google's [Rich Results Test](https://search.google.com/test/rich-results).
+
+
+testing
