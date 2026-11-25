@@ -1,5 +1,5 @@
 # Kawin P — Portfolio robots.txt
-# https://portfolio.kawinprabhakaran.online
+# https://kawinprabhakaran.online
 
 User-agent: *
 Allow: /
@@ -36,4 +36,4 @@ Allow: /
 User-agent: Bingbot
 Allow: /
 
-Sitemap: https://portfolio.kawinprabhakaran.online/sitemap.xml
+Sitemap: https://kawinprabhakaran.online/sitemap.xml

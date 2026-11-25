@@ -1,5 +1,5 @@
 export const env = {
-  siteUrl: import.meta.env.VITE_SITE_URL || 'https://portfolio.kawinprabhakaran.online',
+  siteUrl: import.meta.env.VITE_SITE_URL || 'https://kawinprabhakaran.online',
   contactEmail: import.meta.env.VITE_CONTACT_EMAIL || 'kawinprabha08@gmail.com',
   resumeUrl:
     import.meta.env.VITE_RESUME_URL ||

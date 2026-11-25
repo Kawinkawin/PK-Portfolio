@@ -114,7 +114,7 @@ This portfolio includes a centralized SEO and Answer Engine Optimization (AEO) a
 
 - **Metadata Management (`src/seo/components/SEOHead.tsx`)**: Powered by `react-helmet-async`, injecting per-route `<title>`, meta description, keywords, canonical URLs, Open Graph, Twitter Card, and `robots` directives (`noindex, nofollow` on 404).
 - **Centralized Config (`src/seo/config/`)**:
-  - `siteConfig.ts`: Canonical base URL (`https://portfolio.kawinprabhakaran.online`), author details, social profiles, and default OG image.
+  - `siteConfig.ts`: Canonical base URL (`https://kawinprabhakaran.online`), author details, social profiles, and default OG image.
   - `seoConfig.ts`: Per-page metadata definitions (`SEO_CONFIG.home`, `SEO_CONFIG.notFound`) and `getCanonicalUrl()` helper.
 - **JSON-LD Structured Data (`src/seo/schemas/` & `StructuredData.tsx`)**:
   - `Person` (`personSchema.ts`): Name, job title, affiliation (`Teceze Ltd`, `Sri Eshwar College of Engineering`), skills (`knowsAbout`), and `sameAs` links.
@@ -129,12 +129,12 @@ This portfolio includes a centralized SEO and Answer Engine Optimization (AEO) a
 ### Validating & Submitting Search Metadata
 
 - **Google Analytics 4 (GA4)**:
-  1. Create a GA4 Web Data Stream for `https://portfolio.kawinprabhakaran.online` and copy its `G-...` Measurement ID.
+  1. Create a GA4 Web Data Stream for `https://kawinprabhakaran.online` and copy its `G-...` Measurement ID.
   2. Set `VITE_GA_MEASUREMENT_ID=G-XXXXXXXXXX` in your `.env` (or hosting provider environment variables) and rebuild.
 - **Google Search Console (GSC)**:
-  1. Add `https://portfolio.kawinprabhakaran.online` (or domain property `kawinprabhakaran.online`) in Google Search Console.
+  1. Add `https://kawinprabhakaran.online` (or domain property `kawinprabhakaran.online`) in Google Search Console.
   2. Choose **HTML tag** verification, copy the `content` token, set `VITE_GSC_VERIFICATION=<token>` in `.env`, and deploy (or verify via DNS TXT record / placing Google's verification HTML file in `public/`).
-  3. Submit `https://portfolio.kawinprabhakaran.online/sitemap.xml` under **Indexing → Sitemaps** in Google Search Console and Bing Webmaster Tools.
+  3. Submit `https://kawinprabhakaran.online/sitemap.xml` under **Indexing → Sitemaps** in Google Search Console and Bing Webmaster Tools.
 - **Schema Validation**: Validate rendered JSON-LD at [Schema.org Validator](https://validator.schema.org/) or Google's [Rich Results Test](https://search.google.com/test/rich-results).
 
 

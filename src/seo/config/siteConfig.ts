@@ -5,7 +5,7 @@
 
 export const SITE_CONFIG = {
   /** Canonical domain (no trailing slash) */
-  baseUrl: 'https://portfolio.kawinprabhakaran.online',
+  baseUrl: 'https://kawinprabhakaran.online',
 
   /** Site name used in OG / Twitter titles */
   siteName: "Kawin P's Portfolio",
@@ -19,8 +19,8 @@ export const SITE_CONFIG = {
       'B.Tech AI & Data Science student at Sri Eshwar College of Engineering, currently working as AIML Engineer at Teceze Ltd. Specializing in Machine Learning, Deep Learning, NLP, and Full-Stack Development.',
     email: 'kawinprabha08@gmail.com',
     phone: '+91 99949 68155',
-    image: 'https://portfolio.kawinprabhakaran.online/assets/image.png',
-    url: 'https://portfolio.kawinprabhakaran.online',
+    image: 'https://kawinprabhakaran.online/assets/image.png',
+    url: 'https://kawinprabhakaran.online',
     alumniOf: 'Sri Eshwar College of Engineering',
     worksFor: 'Teceze Ltd',
     location: 'Coimbatore, Tamil Nadu, India',
@@ -33,7 +33,7 @@ export const SITE_CONFIG = {
   },
 
   /** Default OG / Twitter image (1200×630 recommended) */
-  defaultOgImage: 'https://portfolio.kawinprabhakaran.online/assets/image.png',
+  defaultOgImage: 'https://kawinprabhakaran.online/assets/image.png',
 
   /** Default meta keywords */
   defaultKeywords: [

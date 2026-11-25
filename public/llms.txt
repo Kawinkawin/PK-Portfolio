@@ -9,7 +9,7 @@
 - **Role:** AI & Data Science Engineer | Web Developer
 - **Current position:** AIML Engineer at Teceze Ltd (March 2026 – Present)
 - **Education:** B.Tech Artificial Intelligence & Data Science, Sri Eshwar College of Engineering, Coimbatore, Tamil Nadu, India (2022 – 2026)
-- **Portfolio URL:** https://portfolio.kawinprabhakaran.online
+- **Portfolio URL:** https://kawinprabhakaran.online
 - **Email:** kawinprabha08@gmail.com
 - **GitHub:** https://github.com/Kawinkawin
 - **LinkedIn:** https://www.linkedin.com/in/kawin-prahakaran/
@@ -85,4 +85,4 @@ Market Mind AI, Arogyam.ai, Dream-PDF, AI Speech Therapy Game, Surveillance Syst
 Python, React.js, Flask, Docker, AWS, Google Cloud, PyTorch, MongoDB, MySQL, and various AI/ML frameworks.
 
 **How can someone contact Kawin P?**
-Email: kawinprabha08@gmail.com | Portfolio: https://portfolio.kawinprabhakaran.online
+Email: kawinprabha08@gmail.com | Portfolio: https://kawinprabhakaran.online
