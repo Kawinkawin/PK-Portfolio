@@ -1,4 +1,5 @@
 import type { CSSProperties } from 'react';
+import { Link } from 'react-router-dom';
 import './AboutSection.css';
 
 interface FloatingIcon {
@@ -82,6 +83,13 @@ export function AboutSection() {
                   <span>{item.label}</span>
                 </div>
               ))}
+            </div>
+
+            <div style={{ marginTop: '24px' }}>
+              <Link to="/about" className="btn btn-outline">
+                <span>Read Full Biography</span>
+                <i className="fas fa-arrow-right" aria-hidden="true" />
+              </Link>
             </div>
           </div>
         </div>

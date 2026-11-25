@@ -5,43 +5,52 @@
   xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
     http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd"
 >
-  <!-- Homepage / Portfolio (single-page scrolling site) -->
   <url>
     <loc>https://kawinprabhakaran.online/</loc>
     <lastmod>2026-11-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
-
-  <!-- Section anchors — improves deep-link indexing -->
   <url>
-    <loc>https://kawinprabhakaran.online/#about</loc>
-    <lastmod>2026-11-25</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://kawinprabhakaran.online/#experience</loc>
-    <lastmod>2026-11-25</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://kawinprabhakaran.online/#projects</loc>
+    <loc>https://kawinprabhakaran.online/about</loc>
     <lastmod>2026-11-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://kawinprabhakaran.online/#skills</loc>
+    <loc>https://kawinprabhakaran.online/projects/market-mind-ai</loc>
     <lastmod>2026-11-25</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://kawinprabhakaran.online/#contact</loc>
+    <loc>https://kawinprabhakaran.online/projects/arogyam-ai</loc>
     <lastmod>2026-11-25</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://kawinprabhakaran.online/projects/dream-pdf</loc>
+    <lastmod>2026-11-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://kawinprabhakaran.online/projects/ai-speech-therapy-game</loc>
+    <lastmod>2026-11-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://kawinprabhakaran.online/projects/surveillance-vit</loc>
+    <lastmod>2026-11-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://kawinprabhakaran.online/projects/text-summarizer</loc>
+    <lastmod>2026-11-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
   </url>
 </urlset>

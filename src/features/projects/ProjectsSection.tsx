@@ -1,4 +1,5 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
+import { Link } from 'react-router-dom';
 import { PROJECTS } from './data';
 import type { ProjectItem } from './types';
 import './ProjectsSection.css';
@@ -64,7 +65,15 @@ function ProjectCard({ project, isClone = false, cardRef }: ProjectCardProps) {
       </div>
 
       <div className="project-content">
-        <h3>{project.title}</h3>
+        <h3>
+          <Link
+            to={`/projects/${project.id}`}
+            tabIndex={isClone ? -1 : undefined}
+            style={{ color: 'inherit', textDecoration: 'none' }}
+          >
+            {project.title}
+          </Link>
+        </h3>
         <p>{project.description}</p>
         <div className="project-tech">
           {project.techStack.map((tech) => (

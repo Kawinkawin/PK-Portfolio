@@ -71,7 +71,10 @@ export function HeroSection() {
           >
             Kawin P
           </span>
-          <span className="sr-only"> - Web Developer, AI &amp; Data Science Engineer</span>
+          <span className="sr-only">
+            {' '}
+            (Kawin Prabhakaran) - AI &amp; Data Science Engineer, Web Developer
+          </span>
         </h1>
 
         <div className="hero-typing" aria-live="polite">
@@ -82,9 +85,9 @@ export function HeroSection() {
         </div>
 
         <p className="hero-description">
-          AI &amp; Data Science enthusiast crafting intelligent solutions. Specializing in Machine
-          Learning, Deep Learning, and Full-Stack Development with a passion for turning data into
-          actionable insights.
+          Official personal portfolio of <strong>Kawin Prabhakaran (Kawin P)</strong>, an AI &amp;
+          Data Science Engineer and Web Developer specializing in Machine Learning, Deep Learning,
+          NLP, and Full-Stack Development.
         </p>
 
         <div className="hero-cta">

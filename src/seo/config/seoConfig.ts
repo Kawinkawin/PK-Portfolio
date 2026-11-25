@@ -16,12 +16,12 @@ const BASE = SITE_CONFIG.baseUrl;
 /** Per-page SEO metadata — every route must have a unique entry */
 export const SEO_CONFIG = {
   home: {
-    title: `Kawin P | AI & Data Science Engineer | Web Developer Portfolio`,
+    title: 'Kawin Prabhakaran (Kawin P) | AI & Data Science Engineer | Official Portfolio',
     description:
-      'Kawin P (Kawin Prabhakaran) — AI & Data Science Engineer and Web Developer. B.Tech student at Sri Eshwar College of Engineering. Specializing in Machine Learning, Deep Learning, NLP, React.js, and Full-Stack Development. Currently AIML Engineer at Teceze Ltd.',
+      'Explore the official portfolio of Kawin Prabhakaran (Kawin P), an AI & Data Science Engineer and Web Developer specializing in Machine Learning, Deep Learning, NLP, and Full-Stack Development. Discover projects, technical skills, and experience.',
     keywords: [
-      'Kawin P',
       'Kawin Prabhakaran',
+      'Kawin P',
       'AI Data Science Engineer',
       'Web Developer Portfolio',
       'Machine Learning Engineer',
@@ -38,20 +38,63 @@ export const SEO_CONFIG = {
       'Arogyam.ai',
     ],
     canonicalPath: '/',
-    ogTitle: 'Kawin P — AI & Data Science Engineer | Portfolio',
+    ogTitle: 'Kawin Prabhakaran (Kawin P) | AI & Data Science Engineer | Official Portfolio',
     ogDescription:
-      'Explore the portfolio of Kawin P, an AI & Data Science Engineer and Web Developer specializing in Machine Learning, Deep Learning, NLP, and Full-Stack Development.',
+      'Explore the official portfolio of Kawin Prabhakaran (Kawin P), an AI & Data Science Engineer specializing in Machine Learning, Deep Learning, NLP, and Full-Stack Development.',
+    ogImage: SITE_CONFIG.defaultOgImage,
+  } satisfies PageSEOConfig,
+
+  about: {
+    title: 'About Kawin Prabhakaran (Kawin P) | AI & Data Science Engineer',
+    description:
+      'Learn about Kawin Prabhakaran (Kawin P), an AI & Data Science Engineer at Teceze Ltd and B.Tech AI & DS student at Sri Eshwar College of Engineering. Explore his expertise, projects, and background.',
+    keywords: [
+      'About Kawin Prabhakaran',
+      'Kawin P biography',
+      'AI & Data Science Engineer',
+      'Teceze Ltd AIML Engineer',
+      'Sri Eshwar College of Engineering',
+    ],
+    canonicalPath: '/about',
+    ogTitle: 'About Kawin Prabhakaran (Kawin P) | AI & Data Science Engineer',
+    ogDescription:
+      'Professional biography of Kawin Prabhakaran (Kawin P) — AI & Data Science Engineer, Web Developer, and B.Tech AI & DS student.',
     ogImage: SITE_CONFIG.defaultOgImage,
   } satisfies PageSEOConfig,
 
   notFound: {
-    title: '404 — Page Not Found | Kawin P Portfolio',
-    description: 'The requested page does not exist. Return to the Kawin P portfolio homepage.',
+    title: '404 — Page Not Found | Kawin Prabhakaran Portfolio',
+    description:
+      'The requested page does not exist. Return to the Kawin Prabhakaran (Kawin P) portfolio homepage.',
     keywords: [],
     canonicalPath: '/404',
     noIndex: true,
   } satisfies PageSEOConfig,
 } as const;
+
+export function getProjectSeoConfig(project: {
+  id: string;
+  title: string;
+  description: string;
+  techStack: string[];
+}): PageSEOConfig {
+  return {
+    title: `${project.title} | Project by Kawin Prabhakaran (Kawin P)`,
+    description: `${project.description} Built by Kawin Prabhakaran using ${project.techStack.join(', ')}.`,
+    keywords: [
+      project.title,
+      'Kawin Prabhakaran',
+      'Kawin P',
+      ...project.techStack,
+      'AI Project',
+      'Portfolio Project',
+    ],
+    canonicalPath: `/projects/${project.id}`,
+    ogTitle: `${project.title} — Kawin Prabhakaran`,
+    ogDescription: project.description,
+    ogImage: SITE_CONFIG.defaultOgImage,
+  };
+}
 
 /** Resolve the full canonical URL for a given path */
 export function getCanonicalUrl(path: string = '/'): string {

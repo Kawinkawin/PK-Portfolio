@@ -4,6 +4,18 @@ import { MainLayout } from '../components/layout/MainLayout';
 import { HomePage } from '../pages/Home/HomePage';
 import { GoogleAnalytics } from '../seo';
 
+const AboutPage = lazy(() =>
+  import('../pages/About/AboutPage').then((module) => ({
+    default: module.AboutPage,
+  }))
+);
+
+const ProjectDetailPage = lazy(() =>
+  import('../pages/ProjectDetail/ProjectDetailPage').then((module) => ({
+    default: module.ProjectDetailPage,
+  }))
+);
+
 const NotFoundPage = lazy(() =>
   import('../pages/NotFound/NotFoundPage').then((module) => ({
     default: module.NotFoundPage,
@@ -37,6 +49,8 @@ export function AppRouter() {
           <Route element={<MainLayout />}>
             <Route path="/" element={<HomePage />} />
             <Route path="/index.html" element={<HomePage />} />
+            <Route path="/about" element={<AboutPage />} />
+            <Route path="/projects/:id" element={<ProjectDetailPage />} />
             <Route path="*" element={<NotFoundPage />} />
           </Route>
         </Routes>

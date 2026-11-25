@@ -86,6 +86,7 @@ test.describe('PK Portfolio E2E Verification', () => {
 
     await page.locator('#name').fill('Kawin Tester');
     await page.locator('#email').fill('tester@example.com');
+    await page.locator('#phone').fill('+91 9876543210');
     await page.locator('#message').fill('Testing Playwright form submission');
     await page.locator('#contactForm button[type="submit"]').click();
     await expect(page.locator('#contactForm button[type="submit"]')).toContainText('Message Sent!', {

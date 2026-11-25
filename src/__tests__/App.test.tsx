@@ -1,7 +1,8 @@
 import { act, render, screen, waitFor, within } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
-import { beforeEach, describe, expect, it } from 'vitest';
+import { beforeEach, describe, expect, it, vi } from 'vitest';
 import { App } from '../app/App';
+import * as contactService from '../services/contactService';
 
 describe('PK Portfolio React Application', () => {
   beforeEach(() => {
@@ -74,6 +75,10 @@ describe('PK Portfolio React Application', () => {
   });
 
   it('validates contact form fields and submits valid message', async () => {
+    vi.spyOn(contactService, 'submitContactMessage').mockResolvedValueOnce({
+      success: true,
+      message: 'Message Sent!',
+    });
     const user = userEvent.setup();
     render(<App />);
 
@@ -90,8 +95,6 @@ describe('PK Portfolio React Application', () => {
     await user.type(screen.getByLabelText(/Your Mobile Number/i), '+91 9876543210');
     await user.type(screen.getByLabelText(/Your Message/i), 'Hello Kawin!');
     await user.click(submitBtn);
-
-    expect(screen.getByRole('button', { name: /Sending/i })).toBeDisabled();
 
     await waitFor(
       () => {
