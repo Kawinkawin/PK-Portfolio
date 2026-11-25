@@ -1,88 +1,334 @@
-# Kawin P — llms.txt
-# AI-readable factual summary of this portfolio for LLM-based discovery engines.
-# Specification: https://llmstxt.org
-# Last updated: 2026-11-25
+# Kawin Prabhakaran — AI/ML Engineer Portfolio
+
+> Kawin Prabhakaran (Kawin P) is an AI/ML Engineer at Teceze Ltd, specializing in Generative AI, Large Language Model (LLM) integration, Retrieval-Augmented Generation (RAG), Model Context Protocol (MCP), Agentic AI, and Python backend development. He builds practical AI-powered applications, knowledge assistants, intelligent integrations, and workflow automation solutions.
+
+Portfolio: https://kawinprabhakaran.online/
+
+Last updated: 2026-11-25
 
 ## Identity
 
-- **Full name:** Kawin Prabhakaran (goes by "Kawin P")
-- **Role:** AI & Data Science Engineer | Web Developer
-- **Current position:** AIML Engineer at Teceze Ltd (March 2026 – Present)
-- **Education:** B.Tech Artificial Intelligence & Data Science, Sri Eshwar College of Engineering, Coimbatore, Tamil Nadu, India (2022 – 2026)
-- **Portfolio URL:** https://kawinprabhakaran.online
+- **Full Name:** Kawin Prabhakaran
+- **Preferred Name:** Kawin P
+- **Professional Designation:** AI/ML Engineer | Generative AI Developer | LLM Application Developer
+- **Current Position:** AIML Engineer at Teceze Ltd
+- **Employment Period:** March 2026 – Present
+- **Location:** Coimbatore, Tamil Nadu, India
+- **Education:** B.Tech in Artificial Intelligence and Data Science, Sri Eshwar College of Engineering, Coimbatore, Tamil Nadu, India (2022–2026, Completed)
+- **Portfolio:** https://kawinprabhakaran.online/
 - **Email:** kawinprabha08@gmail.com
 - **GitHub:** https://github.com/Kawinkawin
 - **LinkedIn:** https://www.linkedin.com/in/kawin-prahakaran/
 
 ## Professional Summary
 
-Kawin P is a B.Tech AI & Data Science student and practicing engineer specializing in Machine Learning, Deep Learning, NLP, and Full-Stack Web Development. He builds intelligent, data-driven applications combining modern AI techniques with practical engineering. Currently working as an AIML Engineer at Teceze Ltd, he previously interned as a Data Science Intern at V3 Analytics (Jul–Aug 2024) and a Django Framework Intern at RV Tech Learn (Feb–Mar 2024).
+Kawin Prabhakaran is an Artificial Intelligence and Data Science graduate currently working as an AI/ML Engineer at Teceze Ltd.
+
+His professional focus is on developing practical AI-powered applications, integrating Large Language Models into software systems, building Retrieval-Augmented Generation solutions, and experimenting with Model Context Protocol integrations.
+
+His experience includes:
+
+- Developing RAG-based knowledge assistants for retrieving information from Standard Operating Procedures (SOPs) and technical manuals.
+- Integrating Large Language Models into application workflows.
+- Implementing prompt engineering, contextual grounding, and response validation.
+- Working with out-of-scope query detection and fallback mechanisms.
+- Experimenting with MCP-based integrations for self-hosted project management platforms.
+- Developing Python-based backend applications and REST API integrations.
+- Building internal LMS automation portals for candidate registration, assessment assignment, and evaluation management.
+- Developing AI-powered applications involving NLP, machine learning, and contextual information processing.
+- Performing industrial data analysis, predictive modelling, and business dashboard development.
+
+His primary professional interests include Enterprise Generative AI, LLM Engineering, RAG Systems, Agentic AI, MCP Integrations, Python Backend Development, and Intelligent Workflow Automation.
 
 ## Technical Skills
 
-### Programming Languages
-- Python, C++
+### Programming and Backend Development
 
-### Frameworks & Libraries
-- React.js, Flask, Django, Flutter, ExpressJS, Streamlit
+- Python
+- C++
+- Flask
+- Django
+- REST API Development and Integration
+- Asyncio
+- Backend Application Development
 
-### AI / ML / Data
-- Machine Learning, Deep Learning, NLP, Computer Vision, Generative AI
-- LLMs, RAG pipelines, BERT, T5, LSTM, Vision Transformers (ViT), CNNs
-- PyTorch, Scikit-learn, OpenCV
+### Generative AI and LLM Engineering
 
-### Databases
-- MongoDB, MySQL
+- Generative AI
+- Large Language Models (LLMs)
+- LLM Application Development
+- LLM API Integration
+- Retrieval-Augmented Generation (RAG)
+- Prompt Engineering
+- Embeddings
+- Vector Search
+- Contextual Grounding
+- Hugging Face Transformers
+- NeMo Guardrails
 
-### Cloud & DevOps
-- AWS, Google Cloud, Docker
+### Agentic AI and System Integration
 
-### Developer Tools
-- VS Code, GitHub, Jupyter, Power BI, Tableau, n8n
+- Model Context Protocol (MCP)
+- Python MCP SDK
+- MCP Client-Server Communication
+- AI Tool Integration
+- API-Based System Integration
+- n8n Workflow Automation
+- AI-Assisted Development
+- Claude Code
 
-## Work Experience
+### Machine Learning and Data Science
 
-1. **AIML Engineer — Teceze Ltd** (March 2026 – Present)
-2. **Data Science Intern — V3 Analytics** (July 2024 – August 2024)
-3. **Django Framework Intern — RV Tech Learn** (February 2024 – March 2024)
+- Machine Learning
+- Deep Learning
+- Natural Language Processing (NLP)
+- Computer Vision
+- PyTorch
+- Scikit-learn
+- Pandas
+- NumPy
+- OpenCV
+- BERT
+- T5
+- LSTM
+- Vision Transformers (ViT)
+- CNNs
 
-## Key Projects
+### Databases and Cloud Technologies
 
-1. **Market Mind AI** — Intelligent Stock Market Assistant using LLM-driven RAG pipelines, multimodal AI tools, and CNN-based analysis. Stack: React.js, MongoDB, NLP, LSTM, ML. GitHub: https://github.com/Kawinkawin/Market-Mind.AI
+- PostgreSQL
+- MySQL
+- MongoDB
+- Vector Database Concepts
+- AWS
+- Google Cloud
+- Docker
+- Git
+- GitHub
+- OpenRouter API
 
-2. **Arogyam.ai** — Personalized Healthcare AI Advisor with role-based access, real-time multilingual chat, and ML-powered consultation. Stack: Python, Flask, MySQL, Google Cloud, Docker. GitHub: https://github.com/Kawinkawin/Arogyam.ai
+### Data Analytics and Visualization
 
-3. **Dream-PDF** — AI-driven PDF application using BERT for sentiment analysis and RVC model for voice generation. Stack: ReactJS, ExpressJS, Python, Flask, Flutter.
+- Power BI
+- Power Query
+- DAX
+- Tableau
+- Matplotlib
+- Seaborn
 
-4. **AI Speech Therapy Game** — Interactive AI-powered speech therapy game with gamified progress tracking. Stack: AI/ML, Speech Recognition, Unity, Node.js, MongoDB. GitHub: https://github.com/Kawinkawin/AI-Speech-Therapy-Game
+## Professional Experience
 
-5. **Surveillance System using Vision Transformers** — Real-time surveillance using ViT for object detection and activity monitoring. Stack: Python, PyTorch, ViT, OpenCV. GitHub: https://github.com/Kawinkawin/Surveillance-Using-Vision-Transformers
+### AIML Engineer — Teceze Ltd
 
-6. **Text-Summarizer** — Web-based T5 Transformer text summarization app with Flask backend and Streamlit frontend. Stack: Python, Flask, T5, PyTorch, Streamlit.
+**March 2026 – Present**
+
+Working on AI/ML engineering initiatives involving Generative AI applications, RAG systems, MCP experimentation, LLM integration, Python backend development, and workflow automation.
+
+Key contributions and project work:
+
+- Developing a RAG-based knowledge assistant that helps site engineers retrieve information from SOPs and technical manuals.
+- Working on prompt engineering, contextual grounding, and response reliability mechanisms.
+- Implementing out-of-scope query detection and fallback mechanisms to handle unsupported queries.
+- Experimenting with an MCP-based integration harness for a self-hosted Plane project management environment.
+- Developing internal workflows for LMS integration, candidate registration, and assessment management.
+- Working with Python, APIs, LLM integrations, and application automation.
+
+### Data Science Intern — V3 Analytics
+
+**July 2024 – August 2024**
+
+- Analyzed industrial datasets using Python, Pandas, and NumPy.
+- Worked on predictive data modelling using Scikit-learn.
+- Developed analytical dashboards for leadership reporting.
+- Used Power BI, Power Query, DAX, and data visualization techniques.
+
+### Django Framework Intern — RV Tech Learn
+
+**February 2024 – March 2024**
+
+Completed internship training and practical development work involving Django-based application development and Python backend fundamentals.
+
+## Featured Engineering Projects
+
+### 1. Enterprise RAG Knowledge Assistant
+
+**Category:** Generative AI | Enterprise AI | Retrieval-Augmented Generation
+
+Developed a Retrieval-Augmented Generation application that enables site engineers to ask natural-language questions about Standard Operating Procedures and technical manuals.
+
+The application uses document-based contextual retrieval to provide relevant information from technical documentation.
+
+Key engineering areas:
+
+- Retrieval-Augmented Generation.
+- Document-Based Knowledge Retrieval.
+- LLM Integration.
+- Prompt Engineering.
+- Contextual Grounding.
+- Response Validation.
+- Out-of-Scope Query Detection.
+- Fallback Mechanisms.
+- NeMo Guardrails.
+
+The project focuses on making enterprise technical documentation more accessible through conversational AI.
+
+### 2. MCP-Based Plane Integration Harness
+
+**Category:** Agentic AI | Model Context Protocol | AI Integration
+
+Developed an experimental integration harness for a self-hosted Plane project management environment to explore AI-driven interactions through the Model Context Protocol.
+
+The objective is to simplify project management interactions and explore tool-based AI integration.
+
+Key engineering areas:
+
+- Model Context Protocol (MCP).
+- Python MCP SDK.
+- MCP Client-Server Communication.
+- Tool Integration.
+- REST API Integration.
+- Asynchronous Python.
+- Project Management Automation.
+
+This is an experimental integration initiative and should not be represented as a fully production-deployed autonomous agent.
+
+### 3. LMS Integration and Candidate Assessment Portal
+
+**Category:** Backend Engineering | Workflow Automation | Application Integration
+
+Developed an internal portal that integrates candidate registration and assessment workflows with a Learning Management System (LMS).
+
+Key functionalities:
+
+- Candidate form collection.
+- Automated user registration.
+- LMS account creation.
+- User profile management.
+- Assessment assignment.
+- Evaluation result retrieval.
+- Assessment result display.
+
+Key engineering areas:
+
+- Python Backend Development.
+- REST API Integration.
+- Application Workflow Automation.
+- Database Management.
+- LMS Integration.
+
+### 4. Arogyam.ai — AI-Powered Healthcare Platform
+
+**Category:** Healthcare AI | NLP | Full-Stack Application Development
+
+Developed an AI-enabled doctor-patient consultation platform using Python and Flask.
+
+Key functionalities:
+
+- Doctor and patient registration.
+- Role-Based Access Control (RBAC).
+- Doctor-patient consultation workflows.
+- Patient history and context management.
+- Pharmacy integration.
+- Specialty-aware AI assistance.
+- Appointment scheduling.
+- Automated follow-up reminders.
+- Multilingual integration.
+
+Technology Stack:
+
+Python, Flask, MySQL, Hugging Face Transformers, Google Cloud Translation API, Docker, RBAC.
+
+GitHub: https://github.com/Kawinkawin/Arogyam.ai
+
+### 5. Market Mind AI
+
+**Category:** AI Application | Machine Learning | Financial Technology
+
+Developed an intelligent stock market assistant combining LLM-driven interactions, RAG-related functionality, multimodal AI tools, NLP, and machine learning-based analysis.
+
+Technology Stack:
+
+React.js, MongoDB, NLP, LSTM, Machine Learning.
+
+GitHub: https://github.com/Kawinkawin/Market-Mind.AI
+
+### 6. AI Speech Therapy Game
+
+**Category:** AI/ML | Speech Recognition | Interactive Application
+
+Developed an interactive AI-powered speech therapy game with gamified progress tracking.
+
+Technology Areas:
+
+Speech Recognition, AI/ML, Unity, Node.js, MongoDB.
+
+GitHub: https://github.com/Kawinkawin/AI-Speech-Therapy-Game
+
+### 7. Surveillance System Using Vision Transformers
+
+**Category:** Computer Vision | Deep Learning
+
+Developed a surveillance application exploring Vision Transformer-based approaches for visual analysis and activity monitoring.
+
+Technology Stack:
+
+Python, PyTorch, Vision Transformers, OpenCV.
+
+GitHub: https://github.com/Kawinkawin/Surveillance-Using-Vision-Transformers
+
+### Additional Projects
+
+Other academic and development projects include:
+
+- **Dream-PDF:** AI-driven PDF application involving BERT-based sentiment analysis and RVC-based voice generation.
+- **Text-Summarizer:** T5 Transformer-based text summarization application using Flask and Streamlit.
 
 ## Education
 
-- B.Tech Artificial Intelligence & Data Science — Sri Eshwar College of Engineering (2022–2026)
+**Bachelor of Technology (B.Tech) — Artificial Intelligence and Data Science**
 
-## Achievements & Recognition
+Sri Eshwar College of Engineering, Coimbatore, Tamil Nadu, India.
 
-- Best Paper Award winner
-- National Hackathon participant
-- Professional certifications in AI/ML and cloud technologies
+2022 – 2026 | Completed
 
-## Questions Answered
+## Achievements and Recognition
 
-**Who is Kawin P?**
-Kawin P (Kawin Prabhakaran) is an AI & Data Science Engineer and Web Developer based in Coimbatore, India. He is currently a B.Tech AI & Data Science student at Sri Eshwar College of Engineering and works as an AIML Engineer at Teceze Ltd.
+- Best Paper Award winner.
+- National Hackathon participant.
+- Professional certifications in AI/ML and cloud technologies.
 
-**What does Kawin P specialize in?**
-Machine Learning, Deep Learning, NLP, Computer Vision, Generative AI, and Full-Stack Web Development (React.js, Python, Flask).
+## Professional Focus
 
-**What projects has Kawin P built?**
-Market Mind AI, Arogyam.ai, Dream-PDF, AI Speech Therapy Game, Surveillance System using Vision Transformers, and Text-Summarizer.
+Kawin's primary professional interests and areas of specialization include:
 
-**What technologies does Kawin P work with?**
-Python, React.js, Flask, Docker, AWS, Google Cloud, PyTorch, MongoDB, MySQL, and various AI/ML frameworks.
+1. Generative AI Application Development.
+2. Enterprise Retrieval-Augmented Generation Systems.
+3. Large Language Model Integration.
+4. LLM Application Engineering.
+5. Agentic AI and Tool-Using Workflows.
+6. Model Context Protocol (MCP).
+7. Python Backend Engineering.
+8. Intelligent Workflow Automation.
+9. Enterprise AI Applications.
+10. Natural Language Processing.
+11. Machine Learning and Deep Learning.
 
-**How can someone contact Kawin P?**
-Email: kawinprabha08@gmail.com | Portfolio: https://kawinprabhakaran.online
+## Target Professional Roles
+
+- AI/ML Engineer
+- Generative AI Developer
+- GenAI Developer
+- AI Developer
+- LLM Application Developer
+- RAG Engineer
+- Python AI Developer
+- Agentic AI Developer
+
+## Contact and Professional Links
+
+- **Portfolio:** https://kawinprabhakaran.online/
+- **GitHub:** https://github.com/Kawinkawin
+- **LinkedIn:** https://www.linkedin.com/in/kawin-prahakaran/
+- **Email:** kawinprabha08@gmail.com
+
+For professional opportunities, technical collaboration, and AI/ML engineering discussions, contact Kawin through the email address above.
