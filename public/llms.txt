@@ -1,0 +1,88 @@
+# Kawin P — llms.txt
+# AI-readable factual summary of this portfolio for LLM-based discovery engines.
+# Specification: https://llmstxt.org
+# Last updated: 2026-11-25
+
+## Identity
+
+- **Full name:** Kawin Prabhakaran (goes by "Kawin P")
+- **Role:** AI & Data Science Engineer | Web Developer
+- **Current position:** AIML Engineer at Teceze Ltd (March 2026 – Present)
+- **Education:** B.Tech Artificial Intelligence & Data Science, Sri Eshwar College of Engineering, Coimbatore, Tamil Nadu, India (2022 – 2026)
+- **Portfolio URL:** https://portfolio.kawinprabhakaran.online
+- **Email:** kawinprabha08@gmail.com
+- **GitHub:** https://github.com/Kawinkawin
+- **LinkedIn:** https://www.linkedin.com/in/kawin-prahakaran/
+
+## Professional Summary
+
+Kawin P is a B.Tech AI & Data Science student and practicing engineer specializing in Machine Learning, Deep Learning, NLP, and Full-Stack Web Development. He builds intelligent, data-driven applications combining modern AI techniques with practical engineering. Currently working as an AIML Engineer at Teceze Ltd, he previously interned as a Data Science Intern at V3 Analytics (Jul–Aug 2024) and a Django Framework Intern at RV Tech Learn (Feb–Mar 2024).
+
+## Technical Skills
+
+### Programming Languages
+- Python, C++
+
+### Frameworks & Libraries
+- React.js, Flask, Django, Flutter, ExpressJS, Streamlit
+
+### AI / ML / Data
+- Machine Learning, Deep Learning, NLP, Computer Vision, Generative AI
+- LLMs, RAG pipelines, BERT, T5, LSTM, Vision Transformers (ViT), CNNs
+- PyTorch, Scikit-learn, OpenCV
+
+### Databases
+- MongoDB, MySQL
+
+### Cloud & DevOps
+- AWS, Google Cloud, Docker
+
+### Developer Tools
+- VS Code, GitHub, Jupyter, Power BI, Tableau, n8n
+
+## Work Experience
+
+1. **AIML Engineer — Teceze Ltd** (March 2026 – Present)
+2. **Data Science Intern — V3 Analytics** (July 2024 – August 2024)
+3. **Django Framework Intern — RV Tech Learn** (February 2024 – March 2024)
+
+## Key Projects
+
+1. **Market Mind AI** — Intelligent Stock Market Assistant using LLM-driven RAG pipelines, multimodal AI tools, and CNN-based analysis. Stack: React.js, MongoDB, NLP, LSTM, ML. GitHub: https://github.com/Kawinkawin/Market-Mind.AI
+
+2. **Arogyam.ai** — Personalized Healthcare AI Advisor with role-based access, real-time multilingual chat, and ML-powered consultation. Stack: Python, Flask, MySQL, Google Cloud, Docker. GitHub: https://github.com/Kawinkawin/Arogyam.ai
+
+3. **Dream-PDF** — AI-driven PDF application using BERT for sentiment analysis and RVC model for voice generation. Stack: ReactJS, ExpressJS, Python, Flask, Flutter.
+
+4. **AI Speech Therapy Game** — Interactive AI-powered speech therapy game with gamified progress tracking. Stack: AI/ML, Speech Recognition, Unity, Node.js, MongoDB. GitHub: https://github.com/Kawinkawin/AI-Speech-Therapy-Game
+
+5. **Surveillance System using Vision Transformers** — Real-time surveillance using ViT for object detection and activity monitoring. Stack: Python, PyTorch, ViT, OpenCV. GitHub: https://github.com/Kawinkawin/Surveillance-Using-Vision-Transformers
+
+6. **Text-Summarizer** — Web-based T5 Transformer text summarization app with Flask backend and Streamlit frontend. Stack: Python, Flask, T5, PyTorch, Streamlit.
+
+## Education
+
+- B.Tech Artificial Intelligence & Data Science — Sri Eshwar College of Engineering (2022–2026)
+
+## Achievements & Recognition
+
+- Best Paper Award winner
+- National Hackathon participant
+- Professional certifications in AI/ML and cloud technologies
+
+## Questions Answered
+
+**Who is Kawin P?**
+Kawin P (Kawin Prabhakaran) is an AI & Data Science Engineer and Web Developer based in Coimbatore, India. He is currently a B.Tech AI & Data Science student at Sri Eshwar College of Engineering and works as an AIML Engineer at Teceze Ltd.
+
+**What does Kawin P specialize in?**
+Machine Learning, Deep Learning, NLP, Computer Vision, Generative AI, and Full-Stack Web Development (React.js, Python, Flask).
+
+**What projects has Kawin P built?**
+Market Mind AI, Arogyam.ai, Dream-PDF, AI Speech Therapy Game, Surveillance System using Vision Transformers, and Text-Summarizer.
+
+**What technologies does Kawin P work with?**
+Python, React.js, Flask, Docker, AWS, Google Cloud, PyTorch, MongoDB, MySQL, and various AI/ML frameworks.
+
+**How can someone contact Kawin P?**
+Email: kawinprabha08@gmail.com | Portfolio: https://portfolio.kawinprabhakaran.online

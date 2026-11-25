@@ -1,0 +1,39 @@
+# Kawin P — Portfolio robots.txt
+# https://portfolio.kawinprabhakaran.online
+
+User-agent: *
+Allow: /
+
+# Crawl-delay (optional; skip if you prefer full-speed crawling)
+# Crawl-delay: 10
+
+# Block dev/test artifacts
+Disallow: /test-results/
+Disallow: /playwright-report/
+
+# AI crawlers — explicitly permit for AEO
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+Sitemap: https://portfolio.kawinprabhakaran.online/sitemap.xml
