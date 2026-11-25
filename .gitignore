@@ -7,3 +7,4 @@ _legacy_backup
 playwright-report
 test-results
 coverage
+.env.example
