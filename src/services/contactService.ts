@@ -3,6 +3,7 @@ import { env } from '../config/env';
 export interface ContactPayload {
   name: string;
   email: string;
+  phone: string;
   message: string;
 }
 
@@ -16,6 +17,30 @@ export async function submitContactMessage(
   signal?: AbortSignal
 ): Promise<ContactSubmissionResult> {
   if (env.contactEndpoint) {
+    const isGoogleAppsScript =
+      env.contactEndpoint.includes('script.google.com') ||
+      env.contactEndpoint.includes('script.googleusercontent.com');
+
+    if (isGoogleAppsScript) {
+      await fetch(env.contactEndpoint, {
+        method: 'POST',
+        mode: 'no-cors',
+        headers: {
+          'Content-Type': 'text/plain;charset=utf-8',
+        },
+        body: JSON.stringify({
+          ...payload,
+          submittedAt: new Date().toISOString(),
+        }),
+        signal,
+      });
+
+      return {
+        success: true,
+        message: 'Message Sent!',
+      };
+    }
+
     const response = await fetch(env.contactEndpoint, {
       method: 'POST',
       headers: {

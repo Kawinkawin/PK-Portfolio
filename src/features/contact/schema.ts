@@ -7,6 +7,11 @@ export const contactSchema = z.object({
     .trim()
     .min(1, 'Please enter your email.')
     .email('Please enter a valid email address.'),
+  phone: z
+    .string()
+    .trim()
+    .min(1, 'Please enter your mobile number.')
+    .regex(/^[+\d][\d\s()-]{6,19}$/, 'Please enter a valid mobile number.'),
   message: z.string().trim().min(1, 'Please enter your message.'),
 });
 

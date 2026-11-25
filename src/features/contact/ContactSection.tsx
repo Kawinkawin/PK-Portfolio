@@ -25,6 +25,7 @@ export function ContactSection() {
     defaultValues: {
       name: '',
       email: '',
+      phone: '',
       message: '',
     },
   });
@@ -155,6 +156,23 @@ export function ContactSection() {
               {errors.email && (
                 <span className="form-error" role="alert">
                   {errors.email.message}
+                </span>
+              )}
+            </div>
+
+            <div className="form-group">
+              <input
+                type="tel"
+                id="phone"
+                placeholder=" "
+                autoComplete="tel"
+                aria-invalid={Boolean(errors.phone)}
+                {...register('phone')}
+              />
+              <label htmlFor="phone">Your Mobile Number</label>
+              {errors.phone && (
+                <span className="form-error" role="alert">
+                  {errors.phone.message}
                 </span>
               )}
             </div>

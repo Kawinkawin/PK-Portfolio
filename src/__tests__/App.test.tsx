@@ -82,10 +82,12 @@ describe('PK Portfolio React Application', () => {
 
     expect(await screen.findByText(/Please enter your name/i)).toBeInTheDocument();
     expect(screen.getByText(/Please enter your email/i)).toBeInTheDocument();
+    expect(screen.getByText(/Please enter your mobile number/i)).toBeInTheDocument();
     expect(screen.getByText(/Please enter your message/i)).toBeInTheDocument();
 
     await user.type(screen.getByLabelText(/Your Name/i), 'Test User');
     await user.type(screen.getByLabelText(/Your Email/i), 'test@example.com');
+    await user.type(screen.getByLabelText(/Your Mobile Number/i), '+91 9876543210');
     await user.type(screen.getByLabelText(/Your Message/i), 'Hello Kawin!');
     await user.click(submitBtn);
 
