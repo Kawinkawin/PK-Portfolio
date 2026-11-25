@@ -65,12 +65,13 @@ export function AboutPage() {
               Kawin Prabhakaran (Kawin P)
             </h1>
             <p className="about-page-subtitle" itemProp="description">
-              I am <strong itemProp="alternateName">Kawin P</strong> (
-              <strong>Kawin Prabhakaran</strong>), an{' '}
-              <strong itemProp="jobTitle">AI &amp; Data Science Engineer and Web Developer</strong>{' '}
-              currently working as an AIML Engineer at Teceze Ltd and pursuing my B.Tech in
-              Artificial Intelligence &amp; Data Science at Sri Eshwar College of Engineering,
-              Coimbatore.
+              I am <strong itemProp="alternateName">Kawin Prabhakaran</strong> (
+              <strong>Kawin P</strong>), an{' '}
+              <strong itemProp="jobTitle">
+                AI/ML Engineer, Generative AI Developer &amp; LLM Application Developer
+              </strong>{' '}
+              currently working at Teceze Ltd. I hold a completed B.Tech in Artificial Intelligence
+              and Data Science from Sri Eshwar College of Engineering, Coimbatore (2022–2026).
             </p>
           </header>
 

@@ -90,6 +90,95 @@ export function ProjectDetailPage() {
               ))}
             </div>
 
+            {project.caseStudy && (
+              <div
+                style={{
+                  display: 'flex',
+                  flexDirection: 'column',
+                  gap: '20px',
+                  marginBottom: '32px',
+                }}
+              >
+                <div>
+                  <h2 style={{ fontSize: '1.15rem', marginBottom: '6px' }}>Problem Statement</h2>
+                  <p style={{ color: 'var(--text-secondary)', lineHeight: 1.7 }}>
+                    {project.caseStudy.problem}
+                  </p>
+                </div>
+
+                <div>
+                  <h2 style={{ fontSize: '1.15rem', marginBottom: '6px' }}>Solution</h2>
+                  <p style={{ color: 'var(--text-secondary)', lineHeight: 1.7 }}>
+                    {project.caseStudy.solution}
+                  </p>
+                </div>
+
+                <div>
+                  <h2 style={{ fontSize: '1.15rem', marginBottom: '10px' }}>Architecture Flow</h2>
+                  <div
+                    style={{ display: 'flex', flexWrap: 'wrap', alignItems: 'center', gap: '8px' }}
+                  >
+                    {project.caseStudy.architectureSteps.map((step, idx) => (
+                      <span
+                        key={step}
+                        style={{ display: 'inline-flex', alignItems: 'center', gap: '8px' }}
+                      >
+                        <span
+                          style={{
+                            padding: '6px 12px',
+                            borderRadius: '8px',
+                            background: 'rgba(99, 102, 241, 0.1)',
+                            border: '1px solid rgba(99, 102, 241, 0.25)',
+                            fontSize: '0.85rem',
+                            color: 'var(--text-primary)',
+                          }}
+                        >
+                          {step}
+                        </span>
+                        {idx < project.caseStudy!.architectureSteps.length - 1 && (
+                          <span aria-hidden="true" style={{ color: 'var(--accent-primary)' }}>
+                            →
+                          </span>
+                        )}
+                      </span>
+                    ))}
+                  </div>
+                </div>
+
+                <div>
+                  <h2 style={{ fontSize: '1.15rem', marginBottom: '8px' }}>
+                    Technical Implementation
+                  </h2>
+                  <ul
+                    style={{ paddingLeft: '18px', color: 'var(--text-secondary)', lineHeight: 1.7 }}
+                  >
+                    {project.caseStudy.implementation.map((item) => (
+                      <li key={item}>{item}</li>
+                    ))}
+                  </ul>
+                </div>
+
+                <div>
+                  <h2 style={{ fontSize: '1.15rem', marginBottom: '6px' }}>
+                    Challenges &amp; Limitations
+                  </h2>
+                  <p style={{ color: 'var(--text-secondary)', lineHeight: 1.7 }}>
+                    <strong>Challenges:</strong> {project.caseStudy.challenges}
+                  </p>
+                  <p style={{ color: 'var(--text-secondary)', lineHeight: 1.7, marginTop: '6px' }}>
+                    <strong>Limitations:</strong> {project.caseStudy.limitations}
+                  </p>
+                </div>
+
+                <div>
+                  <h2 style={{ fontSize: '1.15rem', marginBottom: '6px' }}>Future Improvements</h2>
+                  <p style={{ color: 'var(--text-secondary)', lineHeight: 1.7 }}>
+                    {project.caseStudy.futureImprovements}
+                  </p>
+                </div>
+              </div>
+            )}
+
             <div className="project-detail-actions">
               {hasRealCodeUrl && (
                 <a

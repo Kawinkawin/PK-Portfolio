@@ -66,16 +66,19 @@ export function HeroSection() {
           <span className="title-line">Hi, I&apos;m</span>
           <span
             className={`title-name glitch${glitchPaused ? ' glitch-reset' : ''}`}
-            data-text="Kawin P"
+            data-text="Kawin Prabhakaran"
             onMouseEnter={handleGlitchHover}
           >
-            Kawin P
-          </span>
-          <span className="sr-only">
-            {' '}
-            (Kawin Prabhakaran) - AI &amp; Data Science Engineer, Web Developer
+            Kawin Prabhakaran
           </span>
         </h1>
+
+        <p
+          className="hero-subtitle"
+          style={{ fontSize: '1.25rem', fontWeight: 600, marginBottom: '8px' }}
+        >
+          Building Intelligent Systems with Generative AI.
+        </p>
 
         <div className="hero-typing" aria-live="polite">
           <span id="typingText">{typedText}</span>
@@ -85,19 +88,27 @@ export function HeroSection() {
         </div>
 
         <p className="hero-description">
-          Official personal portfolio of <strong>Kawin Prabhakaran (Kawin P)</strong>, an AI &amp;
-          Data Science Engineer and Web Developer specializing in Machine Learning, Deep Learning,
-          NLP, and Full-Stack Development.
+          AI/ML Engineer focused on building practical AI-powered applications, LLM-integrated
+          systems, and intelligent automation workflows. I work across Generative AI,
+          Retrieval-Augmented Generation, MCP-based integrations, and Python backend development.
+        </p>
+
+        <p
+          className="hero-keywords"
+          style={{
+            fontSize: '0.9rem',
+            color: 'var(--text-secondary)',
+            marginBottom: '24px',
+            letterSpacing: '0.02em',
+          }}
+        >
+          AI/ML Engineer | Generative AI | RAG | LLM Engineering | MCP | Python
         </p>
 
         <div className="hero-cta">
           <a href="#projects" className="btn btn-primary" onClick={handleScrollToProjects}>
-            <span>View My Work</span>
+            <span>Explore My Projects</span>
             <i className="fas fa-arrow-right" aria-hidden="true" />
-          </a>
-          <a href={`mailto:${CONTACT_DETAILS.email}`} className="btn btn-secondary">
-            <i className="fas fa-envelope" aria-hidden="true" />
-            <span>Get In Touch</span>
           </a>
           <a
             href={CONTACT_DETAILS.resumeUrl}
@@ -108,6 +119,10 @@ export function HeroSection() {
           >
             <i className="fas fa-download" aria-hidden="true" />
             <span>Download Resume</span>
+          </a>
+          <a href={`mailto:${CONTACT_DETAILS.email}`} className="btn btn-secondary">
+            <i className="fas fa-envelope" aria-hidden="true" />
+            <span>Contact Me</span>
           </a>
         </div>
 

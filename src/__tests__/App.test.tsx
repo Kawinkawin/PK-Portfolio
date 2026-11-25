@@ -14,7 +14,7 @@ describe('PK Portfolio React Application', () => {
   it('renders all primary portfolio sections and headings', () => {
     render(<App />);
 
-    expect(screen.getByRole('heading', { name: /Kawin P/i })).toBeInTheDocument();
+    expect(screen.getByRole('heading', { name: /Kawin Prabhakaran/i })).toBeInTheDocument();
     expect(screen.getByRole('heading', { name: /Who I Am/i })).toBeInTheDocument();
     expect(screen.getByRole('heading', { name: /Professional Experience/i })).toBeInTheDocument();
     expect(screen.getByRole('heading', { name: /Academic Background/i })).toBeInTheDocument();
@@ -65,7 +65,7 @@ describe('PK Portfolio React Application', () => {
     render(<App />);
 
     const dots = screen.getAllByRole('button', { name: /Go to slide/i });
-    expect(dots).toHaveLength(6);
+    expect(dots).toHaveLength(9);
     expect(dots[0]).toHaveClass('active');
 
     const nextBtn = screen.getByRole('button', { name: /Next project/i });

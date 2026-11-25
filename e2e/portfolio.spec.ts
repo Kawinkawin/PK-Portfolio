@@ -25,7 +25,7 @@ test.describe('PK Portfolio E2E Verification', () => {
     await page.goto('/');
 
     // Primary sections
-    await expect(page.getByRole('heading', { name: /Kawin P/i })).toBeVisible();
+    await expect(page.getByRole('heading', { name: /Kawin Prabhakaran/i })).toBeVisible();
     await expect(page.locator('#about')).toBeVisible();
     await expect(page.locator('#internships')).toBeVisible();
     await expect(page.locator('#education')).toBeVisible();
@@ -71,7 +71,7 @@ test.describe('PK Portfolio E2E Verification', () => {
 
     // Projects carousel navigation
     const dots = page.locator('.carousel-dot');
-    await expect(dots).toHaveCount(6);
+    await expect(dots).toHaveCount(9);
     await expect(dots.nth(0)).toHaveClass(/active/);
     await page.locator('#projectNext').click();
     await expect(dots.nth(1)).toHaveClass(/active/);
@@ -97,7 +97,7 @@ test.describe('PK Portfolio E2E Verification', () => {
     await page.goto('/missing-page');
     await expect(page.getByText('404')).toBeVisible();
     await page.getByRole('link', { name: /Back to Portfolio/i }).click();
-    await expect(page.getByRole('heading', { name: /Kawin P/i })).toBeVisible();
+    await expect(page.getByRole('heading', { name: /Kawin Prabhakaran/i })).toBeVisible();
 
     expect(failedResponses).toEqual([]);
     expect(consoleErrors).toEqual([]);

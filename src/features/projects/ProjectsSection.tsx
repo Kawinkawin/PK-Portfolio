@@ -25,21 +25,18 @@ function ProjectCard({ project, isClone = false, cardRef }: ProjectCardProps) {
       : `project-placeholder ${project.variant}`;
 
   const renderActionLink = (url: string, title: string, iconClass: string) => {
-    const isPlaceholder = url === '#';
+    if (url === '#') {
+      return null;
+    }
     return (
       <a
         href={url}
         className="project-link"
-        title={isPlaceholder ? `${title} (Link unavailable)` : title}
+        title={title}
         aria-label={`${project.title} - ${title}`}
-        target={isPlaceholder ? undefined : '_blank'}
-        rel={isPlaceholder ? undefined : 'noopener noreferrer'}
+        target="_blank"
+        rel="noopener noreferrer"
         tabIndex={isClone ? -1 : undefined}
-        onClick={(event) => {
-          if (isPlaceholder) {
-            event.preventDefault();
-          }
-        }}
       >
         <i className={iconClass} aria-hidden="true" />
       </a>
@@ -65,6 +62,19 @@ function ProjectCard({ project, isClone = false, cardRef }: ProjectCardProps) {
       </div>
 
       <div className="project-content">
+        <span
+          style={{
+            display: 'inline-block',
+            fontSize: '0.75rem',
+            fontWeight: 600,
+            color: 'var(--accent-primary)',
+            marginBottom: '6px',
+            textTransform: 'uppercase',
+            letterSpacing: '0.04em',
+          }}
+        >
+          {project.category}
+        </span>
         <h3>
           <Link
             to={`/projects/${project.id}`}
@@ -79,6 +89,24 @@ function ProjectCard({ project, isClone = false, cardRef }: ProjectCardProps) {
           {project.techStack.map((tech) => (
             <span key={tech}>{tech}</span>
           ))}
+        </div>
+        <div style={{ marginTop: '14px' }}>
+          <Link
+            to={`/projects/${project.id}`}
+            tabIndex={isClone ? -1 : undefined}
+            style={{
+              fontSize: '0.88rem',
+              fontWeight: 600,
+              color: 'var(--accent-primary)',
+              textDecoration: 'none',
+              display: 'inline-flex',
+              alignItems: 'center',
+              gap: '6px',
+            }}
+          >
+            <span>View Case Study</span>
+            <i className="fas fa-arrow-right" aria-hidden="true" />
+          </Link>
         </div>
       </div>
     </article>

@@ -39,10 +39,10 @@ export const FOOTER_LINKS: NavItem[] = [
 ];
 
 export const TYPING_PHRASES: string[] = [
-  'AI & Data Science Enthusiast',
-  'Machine Learning Developer',
-  'Full Stack Developer',
-  'Problem Solver',
+  'AI/ML Engineer',
+  'Generative AI Developer',
+  'LLM Application Developer',
+  'RAG & MCP Engineer',
 ];
 
 export const HERO_STATS: HeroStat[] = [

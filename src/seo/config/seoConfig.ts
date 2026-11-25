@@ -16,9 +16,9 @@ const BASE = SITE_CONFIG.baseUrl;
 /** Per-page SEO metadata — every route must have a unique entry */
 export const SEO_CONFIG = {
   home: {
-    title: 'Kawin Prabhakaran (Kawin P) | AI & Data Science Engineer | Official Portfolio',
+    title: 'Kawin Prabhakaran | AI/ML Engineer | Generative AI, RAG & MCP',
     description:
-      'Explore the official portfolio of Kawin Prabhakaran (Kawin P), an AI & Data Science Engineer and Web Developer specializing in Machine Learning, Deep Learning, NLP, and Full-Stack Development. Discover projects, technical skills, and experience.',
+      "Explore Kawin Prabhakaran's portfolio — an AI/ML Engineer building Generative AI applications, RAG systems, LLM integrations, MCP-based workflows, and Python backend solutions.",
     keywords: [
       'Kawin Prabhakaran',
       'Kawin P',

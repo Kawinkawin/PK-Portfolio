@@ -20,9 +20,9 @@ const FLOATING_ICONS: FloatingIcon[] = [
 ];
 
 const HIGHLIGHTS: HighlightItem[] = [
-  { iconClass: 'fas fa-award', label: 'Best Paper Award Winner' },
-  { iconClass: 'fas fa-trophy', label: 'National Hackathon Participant' },
-  { iconClass: 'fas fa-certificate', label: '6 Professional Certifications' },
+  { iconClass: 'fas fa-briefcase', label: 'AI/ML Engineer at Teceze Ltd' },
+  { iconClass: 'fas fa-graduation-cap', label: 'B.Tech AI & DS Graduate (2022–2026)' },
+  { iconClass: 'fas fa-robot', label: 'RAG, LLM & MCP Integrations' },
 ];
 
 export function AboutSection() {
@@ -46,8 +46,8 @@ export function AboutSection() {
               <div className="card-glow" />
               <div className="card-content">
                 <i className="fas fa-brain" aria-hidden="true" />
-                <h3>AI &amp; DS</h3>
-                <p>B.Tech Student</p>
+                <h3>AI/ML Engineer</h3>
+                <p>B.Tech AI &amp; DS Graduate</p>
               </div>
             </div>
             <div className="floating-icons" aria-hidden="true">
@@ -63,17 +63,17 @@ export function AboutSection() {
 
           <div className="about-text">
             <p className="about-intro" itemProp="description">
-              I&apos;m a passionate <strong>Web Developer</strong> and{' '}
-              <strong>AI &amp; Data Science Engineer</strong> at Sri Eshwar College of Engineering,
-              with hands-on experience in building intelligent, accessible, and high-performance
-              applications.
+              I am an <strong>Artificial Intelligence and Data Science graduate</strong> currently
+              working as an <strong>AI/ML Engineer</strong>. My work focuses on developing practical
+              AI applications, integrating Large Language Models into software systems, and building
+              intelligent workflows that solve real-world problems.
             </p>
             <p className="about-body">
-              My expertise spans from developing predictive machine learning models to architecting
-              robust full-stack web applications using cutting-edge technologies like LLMs, NLP, and
-              Deep Learning algorithms. I&apos;ve gained practical industry experience interning at
-              V3 Analytics and RV Tech Learn, translating complex data into actionable business
-              intelligence and functional digital experiences.
+              I have hands-on experience developing Retrieval-Augmented Generation (RAG)
+              applications, experimenting with Model Context Protocol (MCP) integrations,
+              implementing AI-powered solutions, and building Python-based backend systems. Beyond
+              AI development, I have worked on application integration, workflow automation,
+              database-driven platforms, data analysis, and predictive modelling.
             </p>
 
             <div className="about-highlights">
