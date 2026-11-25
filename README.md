@@ -4,6 +4,8 @@ Enterprise-grade React + TypeScript migration of Kawin P's personal portfolio we
 
 ## Tech Stack
 
+
+
 - **Framework**: React 19 + TypeScript (strict mode)
 - **Build Tool**: Vite 6
 - **Routing**: React Router DOM v7 (`BrowserRouter`, lazy-loaded 404 route)
